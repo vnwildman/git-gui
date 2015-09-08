@@ -1,14 +1,14 @@
 # Vietnamese translation for GIT-GUI
 # Bản dịch Tiếng Việt dành cho gói Git-gui.
 # This file is distributed under the same license as the git-core package.
-# First translated by Trần Ngọc Quân <vnwildman@gmail.com>, 2014.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2014,2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: git-gui 0.19.0\n"
+"Project-Id-Version: git-gui 0.20.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-26 13:42+0700\n"
-"PO-Revision-Date: 2014-06-27 07:48+0700\n"
+"POT-Creation-Date: 2015-09-08 14:59+0700\n"
+"PO-Revision-Date: 2015-09-08 15:28+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <translation-team-vi@lists.sourceforge.net>\n"
 "Language: vi\n"
@@ -16,38 +16,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Language: Vietnamese\n"
-"X-Poedit-Country: VIET NAM\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: ../\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
-#: git-gui.sh:859
+#: git-gui.sh:861
 #, tcl-format
 msgid "Invalid font specified in %s:"
 msgstr "Phông chữ không hợp lệ được đặc tả trong %s:"
 
-#: git-gui.sh:912
+#: git-gui.sh:915
 msgid "Main Font"
 msgstr "Phông chữ chính"
 
-#: git-gui.sh:913
+#: git-gui.sh:916
 msgid "Diff/Console Font"
 msgstr "Phông chữ cho Bảng điều khiển hay Diff"
 
-#: git-gui.sh:928 git-gui.sh:942 git-gui.sh:955 git-gui.sh:1045
-#: git-gui.sh:1064 git-gui.sh:3119
+#: git-gui.sh:931 git-gui.sh:945 git-gui.sh:958 git-gui.sh:1048 git-gui.sh:1067
+#: git-gui.sh:3125
 msgid "git-gui: fatal error"
 msgstr "git-gui: lỗi nghiêm trọng"
 
-#: git-gui.sh:929
+#: git-gui.sh:932
 msgid "Cannot find git in PATH."
 msgstr "Không tìm thấy git trong biến PATH."
 
-#: git-gui.sh:956
+#: git-gui.sh:959
 msgid "Cannot parse Git version string:"
 msgstr "Không thể phân tích chuỗi phiên bản Git:"
 
-#: git-gui.sh:981
+#: git-gui.sh:984
 #, tcl-format
 msgid ""
 "Git version cannot be determined.\n"
@@ -60,508 +57,511 @@ msgid ""
 msgstr ""
 "Không thể nhận ra phiên bản của Git.\n"
 "\n"
-"%s nói đây là phiên bản '%s'.\n"
+"%s nói đây là phiên bản “%s”.\n"
 "\n"
 "%s yêu cầu Git phiên bản từ 1.5.0 hay mới hơn.\n"
 "\n"
-"Cọi '%s' có phiên bản là 1.5.0?\n"
+"Coi rằng “%s” có phiên bản là 1.5.0?\n"
 
-#: git-gui.sh:1278
+#: git-gui.sh:1281
 msgid "Git directory not found:"
 msgstr "Không tìm thấy thư mục git:"
 
-#: git-gui.sh:1312
+#: git-gui.sh:1315
 msgid "Cannot move to top of working directory:"
 msgstr "Không thể di chuyển đến đỉnh của thư mục làm việc:"
 
-#: git-gui.sh:1320
+#: git-gui.sh:1323
 msgid "Cannot use bare repository:"
 msgstr "Không thể dùng kho trần:"
 
-#: git-gui.sh:1328
+#: git-gui.sh:1331
 msgid "No working directory"
 msgstr "Không có thư mục làm việc"
 
-#: git-gui.sh:1500 lib/checkout_op.tcl:306
+#: git-gui.sh:1503 lib/checkout_op.tcl:306
 msgid "Refreshing file status..."
-msgstr "Cập nhật lại trạng thái tập tin..."
+msgstr "Cập nhật lại trạng thái tập tin…"
 
-#: git-gui.sh:1560
+#: git-gui.sh:1563
 msgid "Scanning for modified files ..."
-msgstr "Đang quét đĩa tìm tập tin thay đổi..."
+msgstr "Đang quét đĩa tìm tập tin thay đổi…"
 
-#: git-gui.sh:1636
+#: git-gui.sh:1639
 msgid "Calling prepare-commit-msg hook..."
-msgstr "Đang gọi móc prepare-commit-msg..."
+msgstr "Đang gọi móc prepare-commit-msg…"
 
-#: git-gui.sh:1653
+#: git-gui.sh:1656
 msgid "Commit declined by prepare-commit-msg hook."
 msgstr "Lần chuyển giao bị chối từ do móc prepare-commit-msg."
 
-#: git-gui.sh:1811 lib/browser.tcl:252
+#: git-gui.sh:1814 lib/browser.tcl:252
 msgid "Ready."
 msgstr "Sẵn sàng."
 
-#: git-gui.sh:1969
+#: git-gui.sh:1978
 #, tcl-format
-msgid "Displaying only %s of %s files."
-msgstr "Chỉ hiển thị %s trong số %s tập tin."
+msgid ""
+"Display limit (gui.maxfilesdisplayed = %s) reached, not showing all %s files."
+msgstr ""
+"Hiển thị có giới hạn (gui.maxfilesdisplayed = %s), đừng hiển thị tất cả %s "
+"tập tin."
 
-#: git-gui.sh:2095
+#: git-gui.sh:2101
 msgid "Unmodified"
 msgstr "Không thay đổi gì"
 
-#: git-gui.sh:2097
+#: git-gui.sh:2103
 msgid "Modified, not staged"
 msgstr "Đã sửa nhưng chưa đánh dấu để chuyển giao"
 
-#: git-gui.sh:2098 git-gui.sh:2110
+#: git-gui.sh:2104 git-gui.sh:2116
 msgid "Staged for commit"
 msgstr "Đánh dấu để chuyển giao"
 
-#: git-gui.sh:2099 git-gui.sh:2111
+#: git-gui.sh:2105 git-gui.sh:2117
 msgid "Portions staged for commit"
 msgstr "Các phần được đánh dấu là cần chuyển giao"
 
-#: git-gui.sh:2100 git-gui.sh:2112
+#: git-gui.sh:2106 git-gui.sh:2118
 msgid "Staged for commit, missing"
 msgstr "Đã đánh dấu là cần chuyển giao, thiếu"
 
-#: git-gui.sh:2102
+#: git-gui.sh:2108
 msgid "File type changed, not staged"
 msgstr "Đã đổi kiểu tập tin nhưng chưa được đánh dấu cần chuyển giao"
 
-#: git-gui.sh:2103 git-gui.sh:2104
+#: git-gui.sh:2109 git-gui.sh:2110
 msgid "File type changed, old type staged for commit"
 msgstr "Đã đổi kiểu tập tin, kiểu cũ đã được đánh dấu cần chuyển giao"
 
-#: git-gui.sh:2105
+#: git-gui.sh:2111
 msgid "File type changed, staged"
 msgstr "Đã đổi kiểu tập tin, đã được đánh dấu cần chuyển giao"
 
-#: git-gui.sh:2106
+#: git-gui.sh:2112
 msgid "File type change staged, modification not staged"
 msgstr ""
 "Thay đổi kiểu tập tin đã được đánh dấu cần chuyển giao, nhưng các thay đổi "
 "thì chưa"
 
-#: git-gui.sh:2107
+#: git-gui.sh:2113
 msgid "File type change staged, file missing"
 msgstr ""
 "Thay đổi kiểu tập tin đã được đánh dấu cần chuyển giao, tập tin bị thiếu"
 
-#: git-gui.sh:2109
+#: git-gui.sh:2115
 msgid "Untracked, not staged"
 msgstr "Chưa được theo dõi, chưa đánh dấu là cần chuyển giao"
 
-#: git-gui.sh:2114
+#: git-gui.sh:2120
 msgid "Missing"
 msgstr "Thiếu"
 
-#: git-gui.sh:2115
+#: git-gui.sh:2121
 msgid "Staged for removal"
 msgstr "Đã đánh dấu là cần gỡ bỏ"
 
-#: git-gui.sh:2116
+#: git-gui.sh:2122
 msgid "Staged for removal, still present"
 msgstr "Đã đánh dấu là cần gỡ bỏ, nhưng vẫn hiện diện"
 
-#: git-gui.sh:2118 git-gui.sh:2119 git-gui.sh:2120 git-gui.sh:2121
-#: git-gui.sh:2122 git-gui.sh:2123
+#: git-gui.sh:2124 git-gui.sh:2125 git-gui.sh:2126 git-gui.sh:2127
+#: git-gui.sh:2128 git-gui.sh:2129
 msgid "Requires merge resolution"
 msgstr "Các yêu cầu phân giải hòa trộn"
 
-#: git-gui.sh:2158
+#: git-gui.sh:2164
 msgid "Starting gitk... please wait..."
-msgstr "Đang khởi động gitk... vui lòng chờ..."
+msgstr "Đang khởi động gitk… vui lòng chờ…"
 
-#: git-gui.sh:2170
+#: git-gui.sh:2176
 msgid "Couldn't find gitk in PATH"
 msgstr "Không thể tìm thấy gitk trong PATH"
 
-#: git-gui.sh:2229
+#: git-gui.sh:2235
 msgid "Couldn't find git gui in PATH"
 msgstr "Không thể tìm thấy git gui trong PATH"
 
-#: git-gui.sh:2648 lib/choose_repository.tcl:40
+#: git-gui.sh:2654 lib/choose_repository.tcl:41
 msgid "Repository"
 msgstr "Kho"
 
-#: git-gui.sh:2649
+#: git-gui.sh:2655
 msgid "Edit"
 msgstr "Chỉnh sửa"
 
-#: git-gui.sh:2651 lib/choose_rev.tcl:567
+#: git-gui.sh:2657 lib/choose_rev.tcl:567
 msgid "Branch"
 msgstr "Nhánh"
 
-#: git-gui.sh:2654 lib/choose_rev.tcl:554
+#: git-gui.sh:2660 lib/choose_rev.tcl:554
 msgid "Commit@@noun"
-msgstr "Chuyển giao@@noun"
+msgstr "Lần chuyển giao@@noun"
 
-#: git-gui.sh:2657 lib/merge.tcl:123 lib/merge.tcl:152 lib/merge.tcl:170
+#: git-gui.sh:2663 lib/merge.tcl:123 lib/merge.tcl:152 lib/merge.tcl:170
 msgid "Merge"
 msgstr "Trộn"
 
-#: git-gui.sh:2658 lib/choose_rev.tcl:563
+#: git-gui.sh:2664 lib/choose_rev.tcl:563
 msgid "Remote"
 msgstr "Máy chủ"
 
-#: git-gui.sh:2661
+#: git-gui.sh:2667
 msgid "Tools"
 msgstr "Công cụ"
 
-#: git-gui.sh:2670
+#: git-gui.sh:2676
 msgid "Explore Working Copy"
 msgstr "Quét dò thư mục làm việc"
 
-#: git-gui.sh:2676
+#: git-gui.sh:2682
 msgid "Git Bash"
 msgstr "Git Bash"
 
-#: git-gui.sh:2686
+#: git-gui.sh:2692
 msgid "Browse Current Branch's Files"
-msgstr "Duyệt các Tập tin ở nhánh hiện nay"
+msgstr "Duyệt các Tập tin ở nhánh hiện tại"
 
-#: git-gui.sh:2690
+#: git-gui.sh:2696
 msgid "Browse Branch Files..."
-msgstr "Duyệt các tập tin nhánh..."
+msgstr "Duyệt các tập tin nhánh…"
 
-#: git-gui.sh:2695
+#: git-gui.sh:2701
 msgid "Visualize Current Branch's History"
 msgstr "Hiển thị trực quan lịch sử nhánh hiện nay"
 
-#: git-gui.sh:2699
+#: git-gui.sh:2705
 msgid "Visualize All Branch History"
 msgstr "Hiển thị trực quan lịch sử mọi nhánh"
 
-#: git-gui.sh:2706
+#: git-gui.sh:2712
 #, tcl-format
 msgid "Browse %s's Files"
-msgstr "Duyệt tập tin của %s..."
+msgstr "Duyệt tập tin của %s…"
 
-#: git-gui.sh:2708
+#: git-gui.sh:2714
 #, tcl-format
 msgid "Visualize %s's History"
 msgstr "Duyệt lịch sử của %s trực quan"
 
-#: git-gui.sh:2713 lib/database.tcl:40 lib/database.tcl:66
+#: git-gui.sh:2719 lib/database.tcl:40 lib/database.tcl:66
 msgid "Database Statistics"
 msgstr "Thống kê cơ sở dữ liệu"
 
-#: git-gui.sh:2716 lib/database.tcl:33
+#: git-gui.sh:2722 lib/database.tcl:33
 msgid "Compress Database"
 msgstr "Nén cơ sở dữ liệu"
 
-#: git-gui.sh:2719
+#: git-gui.sh:2725
 msgid "Verify Database"
 msgstr "Thẩm tra cơ sở dữ liệu"
 
-#: git-gui.sh:2726 git-gui.sh:2730 git-gui.sh:2734 lib/shortcut.tcl:8
+#: git-gui.sh:2732 git-gui.sh:2736 git-gui.sh:2740 lib/shortcut.tcl:8
 #: lib/shortcut.tcl:40 lib/shortcut.tcl:72
 msgid "Create Desktop Icon"
 msgstr "Tạo lối tắt ở màn hình nền"
 
-#: git-gui.sh:2742 lib/choose_repository.tcl:192 lib/choose_repository.tcl:200
+#: git-gui.sh:2748 lib/choose_repository.tcl:193 lib/choose_repository.tcl:201
 msgid "Quit"
 msgstr "Thoát"
 
-#: git-gui.sh:2750
+#: git-gui.sh:2756
 msgid "Undo"
 msgstr "Hủy lệnh vừa rồi"
 
-#: git-gui.sh:2753
+#: git-gui.sh:2759
 msgid "Redo"
 msgstr "Làm lại"
 
-#: git-gui.sh:2757 git-gui.sh:3362
+#: git-gui.sh:2763 git-gui.sh:3368
 msgid "Cut"
 msgstr "Cắt"
 
-#: git-gui.sh:2760 git-gui.sh:3365 git-gui.sh:3439 git-gui.sh:3524
+#: git-gui.sh:2766 git-gui.sh:3371 git-gui.sh:3445 git-gui.sh:3530
 #: lib/console.tcl:69
 msgid "Copy"
 msgstr "Chép"
 
-#: git-gui.sh:2763 git-gui.sh:3368
+#: git-gui.sh:2769 git-gui.sh:3374
 msgid "Paste"
 msgstr "Dán"
 
-#: git-gui.sh:2766 git-gui.sh:3371 lib/branch_delete.tcl:28
-#: lib/remote_branch_delete.tcl:39
+#: git-gui.sh:2772 git-gui.sh:3377 lib/remote_branch_delete.tcl:39
+#: lib/branch_delete.tcl:28
 msgid "Delete"
 msgstr "Xóa bỏ"
 
-#: git-gui.sh:2770 git-gui.sh:3375 git-gui.sh:3528 lib/console.tcl:71
+#: git-gui.sh:2776 git-gui.sh:3381 git-gui.sh:3534 lib/console.tcl:71
 msgid "Select All"
 msgstr "Chọn tất cả"
 
-#: git-gui.sh:2779
-msgid "Create..."
-msgstr "Tạo..."
-
 #: git-gui.sh:2785
-msgid "Checkout..."
-msgstr "Lấy ra..."
+msgid "Create..."
+msgstr "Tạo…"
 
 #: git-gui.sh:2791
+msgid "Checkout..."
+msgstr "Lấy ra…"
+
+#: git-gui.sh:2797
 msgid "Rename..."
-msgstr "Đổi tên..."
+msgstr "Đổi tên…"
 
-#: git-gui.sh:2796
+#: git-gui.sh:2802
 msgid "Delete..."
-msgstr "Xóa..."
+msgstr "Xóa…"
 
-#: git-gui.sh:2801
+#: git-gui.sh:2807
 msgid "Reset..."
 msgstr "Đặt lại.."
 
-#: git-gui.sh:2811
+#: git-gui.sh:2817
 msgid "Done"
 msgstr "Xong"
 
-#: git-gui.sh:2813
+#: git-gui.sh:2819
 msgid "Commit@@verb"
 msgstr "Chuyển giao@@verb"
 
-#: git-gui.sh:2822 git-gui.sh:3303
+#: git-gui.sh:2828 git-gui.sh:3309
 msgid "New Commit"
 msgstr "Lần chuyển giao mới"
 
-#: git-gui.sh:2830 git-gui.sh:3310
+#: git-gui.sh:2836 git-gui.sh:3316
 msgid "Amend Last Commit"
 msgstr "Tu bổ lần chuyển giao cuối"
 
-#: git-gui.sh:2840 git-gui.sh:3264 lib/remote_branch_delete.tcl:101
+#: git-gui.sh:2846 git-gui.sh:3270 lib/remote_branch_delete.tcl:101
 msgid "Rescan"
 msgstr "Quét lại"
 
-#: git-gui.sh:2846
+#: git-gui.sh:2852
 msgid "Stage To Commit"
 msgstr "Đưa lên bệ phóng để chuyển giao"
 
-#: git-gui.sh:2852
+#: git-gui.sh:2858
 msgid "Stage Changed Files To Commit"
 msgstr "Đánh dấu các tập tin đã thay đổi cần chuyển giao"
 
-#: git-gui.sh:2858
+#: git-gui.sh:2864
 msgid "Unstage From Commit"
 msgstr "Đưa ra khỏi bệ phóng để không chuyển giao"
 
-#: git-gui.sh:2864 lib/index.tcl:442
+#: git-gui.sh:2870 lib/index.tcl:442
 msgid "Revert Changes"
 msgstr "Hoàn nguyên các thay đổi"
 
-#: git-gui.sh:2872 git-gui.sh:3575 git-gui.sh:3606
+#: git-gui.sh:2878 git-gui.sh:3581 git-gui.sh:3612
 msgid "Show Less Context"
 msgstr "Hiện ít nội dung hơn"
 
-#: git-gui.sh:2876 git-gui.sh:3579 git-gui.sh:3610
+#: git-gui.sh:2882 git-gui.sh:3585 git-gui.sh:3616
 msgid "Show More Context"
 msgstr "Hiện chi tiết hơn"
 
-#: git-gui.sh:2883 git-gui.sh:3277 git-gui.sh:3386
+#: git-gui.sh:2889 git-gui.sh:3283 git-gui.sh:3392
 msgid "Sign Off"
 msgstr "Ký tên"
 
-#: git-gui.sh:2899
+#: git-gui.sh:2905
 msgid "Local Merge..."
-msgstr "Trộn nội bộ..."
+msgstr "Trộn nội bộ…"
 
-#: git-gui.sh:2904
+#: git-gui.sh:2910
 msgid "Abort Merge..."
-msgstr "Hủy bỏ hòa trộn..."
+msgstr "Hủy bỏ hòa trộn…"
 
-#: git-gui.sh:2916 git-gui.sh:2944
+#: git-gui.sh:2922 git-gui.sh:2950
 msgid "Add..."
-msgstr "Thêm..."
+msgstr "Thêm…"
 
-#: git-gui.sh:2920
+#: git-gui.sh:2926
 msgid "Push..."
-msgstr "Đẩy lên..."
+msgstr "Đẩy lên…"
 
-#: git-gui.sh:2924
+#: git-gui.sh:2930
 msgid "Delete Branch..."
-msgstr "Xoá nhánh..."
+msgstr "Xóa nhánh…"
 
-#: git-gui.sh:2934 git-gui.sh:3557
+#: git-gui.sh:2940 git-gui.sh:3563
 msgid "Options..."
-msgstr "Tùy chọn..."
+msgstr "Tùy chọn…"
 
-#: git-gui.sh:2945
+#: git-gui.sh:2951
 msgid "Remove..."
-msgstr "Gỡ bỏ..."
+msgstr "Gỡ bỏ…"
 
-#: git-gui.sh:2954 lib/choose_repository.tcl:54
+#: git-gui.sh:2960 lib/choose_repository.tcl:55
 msgid "Help"
 msgstr "Trợ giúp"
 
-#: git-gui.sh:2958 git-gui.sh:2962 lib/about.tcl:14
-#: lib/choose_repository.tcl:48 lib/choose_repository.tcl:57
+#: git-gui.sh:2964 git-gui.sh:2968 lib/choose_repository.tcl:49
+#: lib/choose_repository.tcl:58 lib/about.tcl:14
 #, tcl-format
 msgid "About %s"
 msgstr "Giới thiệu về %s"
 
-#: git-gui.sh:2986
+#: git-gui.sh:2992
 msgid "Online Documentation"
 msgstr "Đọc tài liệu trực tuyến"
 
-#: git-gui.sh:2989 lib/choose_repository.tcl:51 lib/choose_repository.tcl:60
+#: git-gui.sh:2995 lib/choose_repository.tcl:52 lib/choose_repository.tcl:61
 msgid "Show SSH Key"
-msgstr "Hiện khoá SSH"
+msgstr "Hiện khóa SSH"
 
-#: git-gui.sh:3008 git-gui.sh:3140
+#: git-gui.sh:3014 git-gui.sh:3146
 msgid "Usage"
 msgstr "Cách dùng"
 
-#: git-gui.sh:3089 lib/blame.tcl:573
+#: git-gui.sh:3095 lib/blame.tcl:573
 msgid "Error"
 msgstr "Lỗi"
 
-#: git-gui.sh:3120
+#: git-gui.sh:3126
 #, tcl-format
 msgid "fatal: cannot stat path %s: No such file or directory"
 msgstr ""
 "lỗi nghiêm trọng: không thể lấy thông tin về đường dẫn %s: Không có tập tin "
 "hoặc thư mục như vậy"
 
-#: git-gui.sh:3153
+#: git-gui.sh:3159
 msgid "Current Branch:"
 msgstr "Nhánh hiện hành:"
 
-#: git-gui.sh:3179
+#: git-gui.sh:3185
 msgid "Staged Changes (Will Commit)"
 msgstr "Đánh dấu các thay đổi (Sẽ chuyển giao)"
 
-#: git-gui.sh:3199
+#: git-gui.sh:3205
 msgid "Unstaged Changes"
 msgstr "Bỏ ra khỏi bệ phóng các thay đổi"
 
-#: git-gui.sh:3270
+#: git-gui.sh:3276
 msgid "Stage Changed"
 msgstr "Đặt lên bệ phóng các thay đổi"
 
-#: git-gui.sh:3289 lib/transport.tcl:137 lib/transport.tcl:229
+#: git-gui.sh:3295 lib/transport.tcl:137 lib/transport.tcl:229
 msgid "Push"
 msgstr "Đẩy lên"
 
-#: git-gui.sh:3324
+#: git-gui.sh:3330
 msgid "Initial Commit Message:"
 msgstr "Phần chú thích cho lần chuyển giao khởi tạo:"
 
-#: git-gui.sh:3325
+#: git-gui.sh:3331
 msgid "Amended Commit Message:"
 msgstr "Phần chú giải cho lần chuyển giao tu bổ:"
 
-#: git-gui.sh:3326
+#: git-gui.sh:3332
 msgid "Amended Initial Commit Message:"
 msgstr "Phần chú giải cho lần chuyển giao tu bổ lần khởi tạo:"
 
-#: git-gui.sh:3327
+#: git-gui.sh:3333
 msgid "Amended Merge Commit Message:"
 msgstr "Phần chú giải cho lần chuyển giao tu bổ lần hòa trộn"
 
-#: git-gui.sh:3328
+#: git-gui.sh:3334
 msgid "Merge Commit Message:"
 msgstr "Ghi chú của lần chuyển giao hòa trộn:"
 
-#: git-gui.sh:3329
+#: git-gui.sh:3335
 msgid "Commit Message:"
 msgstr "Chú thích của lần chuyển giao:"
 
-#: git-gui.sh:3378 git-gui.sh:3532 lib/console.tcl:73
+#: git-gui.sh:3384 git-gui.sh:3538 lib/console.tcl:73
 msgid "Copy All"
 msgstr "Chép tất cả"
 
-#: git-gui.sh:3402 lib/blame.tcl:105
+#: git-gui.sh:3408 lib/blame.tcl:105
 msgid "File:"
 msgstr "Tập tin:"
 
-#: git-gui.sh:3520
+#: git-gui.sh:3526
 msgid "Refresh"
 msgstr "Làm tươi lại"
 
-#: git-gui.sh:3541
+#: git-gui.sh:3547
 msgid "Decrease Font Size"
-msgstr "Giảm kích cỡ phông"
+msgstr "Giảm cỡ chữ"
 
-#: git-gui.sh:3545
+#: git-gui.sh:3551
 msgid "Increase Font Size"
-msgstr "Tăng kích cỡ phông"
+msgstr "Tăng cỡ chữ"
 
-#: git-gui.sh:3553 lib/blame.tcl:294
+#: git-gui.sh:3559 lib/blame.tcl:294
 msgid "Encoding"
 msgstr "Bảng mã"
 
-#: git-gui.sh:3564
+#: git-gui.sh:3570
 msgid "Apply/Reverse Hunk"
 msgstr "Áp dụng hay đảo ngược cả khối"
 
-#: git-gui.sh:3569
+#: git-gui.sh:3575
 msgid "Apply/Reverse Line"
 msgstr "Áp dụng hay đảo ngược dòng"
 
-#: git-gui.sh:3588
+#: git-gui.sh:3594
 msgid "Run Merge Tool"
 msgstr "Chạy công cụ hòa trộn"
 
-#: git-gui.sh:3593
+#: git-gui.sh:3599
 msgid "Use Remote Version"
 msgstr "Dùng phiên bản ở máy chủ"
 
-#: git-gui.sh:3597
+#: git-gui.sh:3603
 msgid "Use Local Version"
 msgstr "Dùng phiên bản ở máy nội bộ"
 
-#: git-gui.sh:3601
+#: git-gui.sh:3607
 msgid "Revert To Base"
 msgstr "Trở lại cơ bản"
 
-#: git-gui.sh:3619
+#: git-gui.sh:3625
 msgid "Visualize These Changes In The Submodule"
-msgstr "Hiển thị trực quan các thay đổi trong mô-đun con"
+msgstr "Hiển thị trực quan các thay đổi trong mô-đun-con"
 
-#: git-gui.sh:3623
+#: git-gui.sh:3629
 msgid "Visualize Current Branch History In The Submodule"
-msgstr "Hiển thị trực quan lịch sử nhánh hiện tại trong mô-đun con"
+msgstr "Hiển thị trực quan lịch sử nhánh hiện tại trong mô-đun-con"
 
-#: git-gui.sh:3627
+#: git-gui.sh:3633
 msgid "Visualize All Branch History In The Submodule"
-msgstr "Hiển thị trực quan lịch sử mọi nhánh trong mô-đun con"
+msgstr "Hiển thị trực quan lịch sử mọi nhánh trong mô-đun-con"
 
-#: git-gui.sh:3632
+#: git-gui.sh:3638
 msgid "Start git gui In The Submodule"
 msgstr "Khởi chạy git gui trong mô-đun-con"
 
-#: git-gui.sh:3667
+#: git-gui.sh:3673
 msgid "Unstage Hunk From Commit"
 msgstr "Bỏ đánh dấu đoạn cần chuyển giao"
 
-#: git-gui.sh:3669
+#: git-gui.sh:3675
 msgid "Unstage Lines From Commit"
 msgstr "Bỏ đánh dấu các dòng cần chuyển giao"
 
-#: git-gui.sh:3671
+#: git-gui.sh:3677
 msgid "Unstage Line From Commit"
 msgstr "Bỏ đánh dấu dòng cần chuyển giao"
 
-#: git-gui.sh:3674
+#: git-gui.sh:3680
 msgid "Stage Hunk For Commit"
 msgstr "Đánh dấu đoạn cần chuyển giao"
 
-#: git-gui.sh:3676
+#: git-gui.sh:3682
 msgid "Stage Lines For Commit"
 msgstr "Đánh dấu các dòng cần chuyển giao"
 
-#: git-gui.sh:3678
+#: git-gui.sh:3684
 msgid "Stage Line For Commit"
 msgstr "Đánh dấu dòng cần chuyển giao"
 
-#: git-gui.sh:3703
+#: git-gui.sh:3709
 msgid "Initializing..."
-msgstr "Đang khởi tạo..."
+msgstr "Đang khởi tạo…"
 
-#: git-gui.sh:3846
+#: git-gui.sh:3852
 #, tcl-format
 msgid ""
 "Possible environment issues exist.\n"
@@ -577,7 +577,7 @@ msgstr ""
 "chạy bởi %s:\n"
 "\n"
 
-#: git-gui.sh:3875
+#: git-gui.sh:3881
 msgid ""
 "\n"
 "This is due to a known issue with the\n"
@@ -587,7 +587,7 @@ msgstr ""
 "Cái này có nguyên nhân bởi một lỗi phát ra từ\n"
 "Tcl phân phối bởi Cygwin."
 
-#: git-gui.sh:3880
+#: git-gui.sh:3886
 #, tcl-format
 msgid ""
 "\n"
@@ -604,318 +604,30 @@ msgstr ""
 "user.email thành tập tin cá nhân của bạn\n"
 "~/.gitconfig.\n"
 
-#: lib/about.tcl:26
-msgid "git-gui - a graphical user interface for Git."
-msgstr "git-gui - công cụ đồ họa dành cho Git."
-
-#: lib/blame.tcl:73
-msgid "File Viewer"
-msgstr "Bộ Xem Tập Tin"
-
-#: lib/blame.tcl:79
-msgid "Commit:"
-msgstr "Lần chuyển giao:"
-
-#: lib/blame.tcl:280
-msgid "Copy Commit"
-msgstr "Chép lần chuyển giao"
-
-#: lib/blame.tcl:284
-msgid "Find Text..."
-msgstr "Tìm chữ..."
-
-#: lib/blame.tcl:288
-msgid "Goto Line..."
-msgstr "Nhảy đến dòng..."
-
-#: lib/blame.tcl:297
-msgid "Do Full Copy Detection"
-msgstr "Thực hiện dò tìm chép toàn bộ"
-
-#: lib/blame.tcl:301
-msgid "Show History Context"
-msgstr "Hiển thị nội dung của lịch sử"
-
-#: lib/blame.tcl:304
-msgid "Blame Parent Commit"
-msgstr "Xem công trạng của lần chuyển giao cha mẹ"
-
-#: lib/blame.tcl:466
-#, tcl-format
-msgid "Reading %s..."
-msgstr "Đang đọc %s..."
-
-#: lib/blame.tcl:594
-msgid "Loading copy/move tracking annotations..."
-msgstr "Đang tải phần chú giải theo dõi chép/chuyển..."
-
-#: lib/blame.tcl:614
-msgid "lines annotated"
-msgstr "dòng chú giải"
-
-#: lib/blame.tcl:806
-msgid "Loading original location annotations..."
-msgstr "Đang tải các chú giải vị trí nguyên gốc..."
-
-#: lib/blame.tcl:809
-msgid "Annotation complete."
-msgstr "Chú giải hoàn tất."
-
-#: lib/blame.tcl:839
-msgid "Busy"
-msgstr "Bận"
-
-#: lib/blame.tcl:840
-msgid "Annotation process is already running."
-msgstr "Tiến trình chú giải đang diễn ra."
-
-#: lib/blame.tcl:879
-msgid "Running thorough copy detection..."
-msgstr "Đang chạy dò tìm sao chép toàn diện..."
-
-#: lib/blame.tcl:947
-msgid "Loading annotation..."
-msgstr "Đang tải phần chú giải..."
-
-#: lib/blame.tcl:1000
-msgid "Author:"
-msgstr "Tác giả:"
-
-#: lib/blame.tcl:1004
-msgid "Committer:"
-msgstr "Người chuyển giao:"
-
-#: lib/blame.tcl:1009
-msgid "Original File:"
-msgstr "Tập tin gốc:"
-
-#: lib/blame.tcl:1057
-msgid "Cannot find HEAD commit:"
-msgstr "Không thể tìm thấy HEAD của lần chuyển giao:"
-
-#: lib/blame.tcl:1112
-msgid "Cannot find parent commit:"
-msgstr "Không thể tìm thấy lần chuyển giao mẹ:"
-
-#: lib/blame.tcl:1127
-msgid "Unable to display parent"
-msgstr "Không thể hiển thị cha mẹ"
-
-#: lib/blame.tcl:1128 lib/diff.tcl:341
-msgid "Error loading diff:"
-msgstr "Gặp lỗi khi tải diff:"
-
-#: lib/blame.tcl:1269
-msgid "Originally By:"
-msgstr "Nguyên gốc bởi:"
-
-#: lib/blame.tcl:1275
-msgid "In File:"
-msgstr "Trong tập tin:"
-
-#: lib/blame.tcl:1280
-msgid "Copied Or Moved Here By:"
-msgstr "Đã chép hoặc Di chuyển đến đây bởi:"
-
-#: lib/branch_checkout.tcl:16 lib/branch_checkout.tcl:21
-msgid "Checkout Branch"
-msgstr "Lấy ra nhánh"
-
-#: lib/branch_checkout.tcl:26
-msgid "Checkout"
-msgstr "Lấy ra"
-
-#: lib/branch_checkout.tcl:30 lib/branch_create.tcl:37
-#: lib/branch_delete.tcl:34 lib/branch_rename.tcl:32 lib/browser.tcl:292
-#: lib/checkout_op.tcl:579 lib/choose_font.tcl:45 lib/merge.tcl:174
-#: lib/option.tcl:127 lib/remote_add.tcl:34 lib/remote_branch_delete.tcl:43
-#: lib/tools_dlg.tcl:41 lib/tools_dlg.tcl:202 lib/tools_dlg.tcl:345
-#: lib/transport.tcl:141
-msgid "Cancel"
-msgstr "Thôi"
-
-#: lib/branch_checkout.tcl:35 lib/browser.tcl:297 lib/tools_dlg.tcl:321
-msgid "Revision"
-msgstr "Điểm sửa đổi"
-
-#: lib/branch_checkout.tcl:39 lib/branch_create.tcl:69 lib/option.tcl:309
-msgid "Options"
-msgstr "Tùy chọn"
-
-#: lib/branch_checkout.tcl:42 lib/branch_create.tcl:92
-msgid "Fetch Tracking Branch"
-msgstr "Lấy về nhánh được theo dõi"
-
-#: lib/branch_checkout.tcl:47
-msgid "Detach From Local Branch"
-msgstr "Tách rời từ Nhánh nội bộ"
-
-#: lib/branch_create.tcl:23
-msgid "Create Branch"
-msgstr "Tạo nhánh"
-
-#: lib/branch_create.tcl:28
-msgid "Create New Branch"
-msgstr "Tạo nhánh mới"
-
-#: lib/branch_create.tcl:33 lib/choose_repository.tcl:391
-msgid "Create"
-msgstr "Tạo"
-
-#: lib/branch_create.tcl:42
-msgid "Branch Name"
-msgstr "Tên nhánh"
-
-#: lib/branch_create.tcl:44 lib/remote_add.tcl:41 lib/tools_dlg.tcl:51
-msgid "Name:"
-msgstr "Tên:"
-
-#: lib/branch_create.tcl:57
-msgid "Match Tracking Branch Name"
-msgstr "Khớp với tên nhánh được theo dõi"
-
-#: lib/branch_create.tcl:66
-msgid "Starting Revision"
-msgstr "Điểm đầu"
-
-#: lib/branch_create.tcl:72
-msgid "Update Existing Branch:"
-msgstr "Cập nhật nhánh sẵn có:"
-
-#: lib/branch_create.tcl:75
-msgid "No"
-msgstr "Không"
-
-#: lib/branch_create.tcl:80
-msgid "Fast Forward Only"
-msgstr "Chỉ fast-forward"
-
-#: lib/branch_create.tcl:85 lib/checkout_op.tcl:571
-msgid "Reset"
-msgstr "Đặt lại"
-
-#: lib/branch_create.tcl:97
-msgid "Checkout After Creation"
-msgstr "Lấy ra sau khi tạo"
-
-#: lib/branch_create.tcl:132
-msgid "Please select a tracking branch."
-msgstr "Vui lòng chọn nhánh theo dõi."
-
-#: lib/branch_create.tcl:141
-#, tcl-format
-msgid "Tracking branch %s is not a branch in the remote repository."
-msgstr "Nhánh theo dõi %s không phải là một nhánh trên kho chứa máy chủ."
-
-#: lib/branch_create.tcl:154 lib/branch_rename.tcl:92
-msgid "Please supply a branch name."
-msgstr "Hãy cung cấp tên nhánh."
-
-#: lib/branch_create.tcl:165 lib/branch_rename.tcl:112
-#, tcl-format
-msgid "'%s' is not an acceptable branch name."
-msgstr "'%s' không phải là một tên nhánh được chấp nhận."
-
-#: lib/branch_delete.tcl:16
-msgid "Delete Branch"
-msgstr "Xoá nhánh"
-
-#: lib/branch_delete.tcl:21
-msgid "Delete Local Branch"
-msgstr "Xóa nhánh nội bộ"
-
-#: lib/branch_delete.tcl:39
-msgid "Local Branches"
-msgstr "Nhánh nội bộ"
-
-#: lib/branch_delete.tcl:51
-msgid "Delete Only If Merged Into"
-msgstr "Chỉ xóa nếu đã hòa trộn vào"
-
-#: lib/branch_delete.tcl:53 lib/remote_branch_delete.tcl:120
-msgid "Always (Do not perform merge checks)"
-msgstr "Luôn (Không thực hiện kiểm tra hòa trộn)"
-
-#: lib/branch_delete.tcl:103
-#, tcl-format
-msgid "The following branches are not completely merged into %s:"
-msgstr "Các nhánh sau đây không được hòa trộn hoàn toàn vào %s:"
-
-#: lib/branch_delete.tcl:115 lib/remote_branch_delete.tcl:218
-msgid ""
-"Recovering deleted branches is difficult.\n"
-"\n"
-"Delete the selected branches?"
-msgstr ""
-"Khôi phục các nhánh đã bị xóa là việc khó khăn.\n"
-"\n"
-"Xóa nhánh đã chọn chứ?"
-
-#: lib/branch_delete.tcl:141
-#, tcl-format
-msgid ""
-"Failed to delete branches:\n"
-"%s"
-msgstr ""
-"Gặp lỗi khi xóa các nhánh:\n"
-"%s"
-
-#: lib/branch_rename.tcl:15 lib/branch_rename.tcl:23
-msgid "Rename Branch"
-msgstr "Đổi tên nhánh"
-
-#: lib/branch_rename.tcl:28
-msgid "Rename"
-msgstr "Đổi tên"
-
-#: lib/branch_rename.tcl:38
-msgid "Branch:"
-msgstr "Nhánh:"
-
-#: lib/branch_rename.tcl:46
-msgid "New Name:"
-msgstr "Tên mới:"
-
-#: lib/branch_rename.tcl:81
-msgid "Please select a branch to rename."
-msgstr "Hãy chọn nhánh cần đổi tên."
-
-#: lib/branch_rename.tcl:102 lib/checkout_op.tcl:202
-#, tcl-format
-msgid "Branch '%s' already exists."
-msgstr "Nhánh '%s' đã có rồi."
-
-#: lib/branch_rename.tcl:123
-#, tcl-format
-msgid "Failed to rename '%s'."
-msgstr "Gặp lỗi khi đổi tên '%s'."
-
-#: lib/browser.tcl:17
-msgid "Starting..."
-msgstr "Đang khởi động..."
-
-#: lib/browser.tcl:27
-msgid "File Browser"
-msgstr "Bộ duyệt tập tin"
-
-#: lib/browser.tcl:132 lib/browser.tcl:149
-#, tcl-format
-msgid "Loading %s..."
-msgstr "Đang tải %s..."
-
-#: lib/browser.tcl:193
-msgid "[Up To Parent]"
-msgstr "[Tới cha mẹ]"
-
-#: lib/browser.tcl:275 lib/browser.tcl:282
-msgid "Browse Branch Files"
-msgstr "Duyệt các tập tin nhánh"
-
-#: lib/browser.tcl:288 lib/choose_repository.tcl:406
-#: lib/choose_repository.tcl:493 lib/choose_repository.tcl:502
-#: lib/choose_repository.tcl:1029
-msgid "Browse"
-msgstr "Tìm duyệt"
+#: lib/line.tcl:17
+msgid "Goto Line:"
+msgstr "Nhảy đến dòng:"
+
+#: lib/line.tcl:23
+msgid "Go"
+msgstr "Nhảy"
+
+#: lib/console.tcl:59
+msgid "Working... please wait..."
+msgstr "Đang chạy.. vui lòng đợi…"
+
+#: lib/console.tcl:81 lib/checkout_op.tcl:146 lib/sshkey.tcl:55
+#: lib/database.tcl:30
+msgid "Close"
+msgstr "Đóng"
+
+#: lib/console.tcl:186
+msgid "Success"
+msgstr "Thành công"
+
+#: lib/console.tcl:200
+msgid "Error: Command Failed"
+msgstr "Lỗi: Câu lệnh gặp lỗi"
 
 #: lib/checkout_op.tcl:85
 #, tcl-format
@@ -927,20 +639,20 @@ msgstr "Đang lấy về %s từ %s"
 msgid "fatal: Cannot resolve %s"
 msgstr "gặp lỗi nghiêm trọng: Không thể phân giải %s"
 
-#: lib/checkout_op.tcl:146 lib/console.tcl:81 lib/database.tcl:30
-#: lib/sshkey.tcl:55
-msgid "Close"
-msgstr "Đóng"
-
 #: lib/checkout_op.tcl:175
 #, tcl-format
 msgid "Branch '%s' does not exist."
-msgstr "Chưa có nhánh '%s'"
+msgstr "Chưa có nhánh “%s”"
 
 #: lib/checkout_op.tcl:194
 #, tcl-format
 msgid "Failed to configure simplified git-pull for '%s'."
-msgstr "Gặp lỗi khi cấu hình git-pull đơn giản dành cho '%s'."
+msgstr "Gặp lỗi khi cấu hình git-pull đơn giản dành cho “%s”."
+
+#: lib/checkout_op.tcl:202 lib/branch_rename.tcl:102
+#, tcl-format
+msgid "Branch '%s' already exists."
+msgstr "Nhánh “%s” đã có rồi."
 
 #: lib/checkout_op.tcl:229
 #, tcl-format
@@ -950,20 +662,20 @@ msgid ""
 "It cannot fast-forward to %s.\n"
 "A merge is required."
 msgstr ""
-"Nhánh '%s' đã sẵn có.\n"
+"Nhánh “%s” đã sẵn có.\n"
 "\n"
-"Không thể fast-forward thành %s.\n"
+"Không thể chuyển-tiếp-nhanh thành %s.\n"
 "Bạn cần phải hòa trộn."
 
 #: lib/checkout_op.tcl:243
 #, tcl-format
 msgid "Merge strategy '%s' not supported."
-msgstr "Không hỗ trợ chiến lược hòa trộn '%s'."
+msgstr "Không hỗ trợ chiến lược hòa trộn “%s”."
 
 #: lib/checkout_op.tcl:262
 #, tcl-format
 msgid "Failed to update '%s'."
-msgstr "Gặp lỗi khi cập nhật '%s'."
+msgstr "Gặp lỗi khi cập nhật “%s”."
 
 #: lib/checkout_op.tcl:274
 msgid "Staging area (index) is already locked."
@@ -988,7 +700,7 @@ msgstr ""
 #: lib/checkout_op.tcl:345
 #, tcl-format
 msgid "Updating working directory to '%s'..."
-msgstr "Cập nhật thư mục làm việc thành '%s'..."
+msgstr "Cập nhật thư mục làm việc thành “%s”…"
 
 #: lib/checkout_op.tcl:346
 msgid "files checked out"
@@ -997,7 +709,7 @@ msgstr "các tập tin cần lấy ra"
 #: lib/checkout_op.tcl:376
 #, tcl-format
 msgid "Aborted checkout of '%s' (file level merging is required)."
-msgstr "Hủy bỏ lấy ra '%s' (cần hòa trộn mức tập tin)."
+msgstr "Hủy bỏ lấy ra “%s” (cần hòa trộn mức tập tin)."
 
 #: lib/checkout_op.tcl:377
 msgid "File level merge required."
@@ -1006,7 +718,7 @@ msgstr "Cần mức hòa trộn tập tin."
 #: lib/checkout_op.tcl:381
 #, tcl-format
 msgid "Staying on branch '%s'."
-msgstr "Đang ở trên nhánh '%s'."
+msgstr "Đang ở trên nhánh “%s”."
 
 #: lib/checkout_op.tcl:452
 msgid ""
@@ -1017,17 +729,17 @@ msgid ""
 msgstr ""
 "Bạn hiện không còn ở nhánh nội bộ.\n"
 "\n"
-"Nếu bạn muốn trên một nhánh, hãy tạo một cái từ 'Đây là lấy ra tách rời'."
+"Nếu bạn muốn trên một nhánh, hãy tạo một cái từ “Đây là lấy ra tách rời”."
 
 #: lib/checkout_op.tcl:503 lib/checkout_op.tcl:507
 #, tcl-format
 msgid "Checked out '%s'."
-msgstr "Đã lấy ra '%s'."
+msgstr "Đã lấy ra “%s”."
 
 #: lib/checkout_op.tcl:535
 #, tcl-format
 msgid "Resetting '%s' to '%s' will lose the following commits:"
-msgstr "Đặt lại '%s' thành '%s' sẽ làm mất những lần chuyển giao sau đây:"
+msgstr "Đặt lại “%s” thành “%s” sẽ làm mất những lần chuyển giao sau đây:"
 
 #: lib/checkout_op.tcl:557
 msgid "Recovering lost commits may not be easy."
@@ -1036,11 +748,24 @@ msgstr "Lấy lại những lần chuyển giao đã mất là không dễ."
 #: lib/checkout_op.tcl:562
 #, tcl-format
 msgid "Reset '%s'?"
-msgstr "Đặt lại '%s'?"
+msgstr "Đặt lại “%s'?"
 
 #: lib/checkout_op.tcl:567 lib/merge.tcl:166 lib/tools_dlg.tcl:336
 msgid "Visualize"
 msgstr "Trực quan"
+
+#: lib/checkout_op.tcl:571 lib/branch_create.tcl:85
+msgid "Reset"
+msgstr "Đặt lại"
+
+#: lib/checkout_op.tcl:579 lib/transport.tcl:141 lib/remote_add.tcl:34
+#: lib/browser.tcl:292 lib/merge.tcl:174 lib/branch_checkout.tcl:30
+#: lib/choose_font.tcl:45 lib/option.tcl:127 lib/tools_dlg.tcl:41
+#: lib/tools_dlg.tcl:202 lib/tools_dlg.tcl:345 lib/branch_rename.tcl:32
+#: lib/remote_branch_delete.tcl:43 lib/branch_create.tcl:37
+#: lib/branch_delete.tcl:34
+msgid "Cancel"
+msgstr "Thôi"
 
 #: lib/checkout_op.tcl:635
 #, tcl-format
@@ -1059,775 +784,198 @@ msgstr ""
 "\n"
 "Điều này đáng lẽ không thể xảy ra.  %s giờ sẽ đóng lại và đầu hàng."
 
-#: lib/choose_font.tcl:41
-msgid "Select"
-msgstr "Chọn"
-
-#: lib/choose_font.tcl:55
-msgid "Font Family"
-msgstr "Họ phông chữ"
-
-#: lib/choose_font.tcl:76
-msgid "Font Size"
-msgstr "Cỡ phông chữ"
-
-#: lib/choose_font.tcl:93
-msgid "Font Example"
-msgstr "Phông chữ ví dụ"
-
-#: lib/choose_font.tcl:105
-msgid ""
-"This is example text.\n"
-"If you like this text, it can be your font."
-msgstr ""
-"Đây là chữ mẫu.\n"
-"Nếu bạn thích chữ như thế này thì chọn phông chữ này."
-
-#: lib/choose_repository.tcl:32
-msgid "Git Gui"
-msgstr "Git Gui"
-
-#: lib/choose_repository.tcl:91 lib/choose_repository.tcl:396
-msgid "Create New Repository"
-msgstr "Tạo kho mới"
-
-#: lib/choose_repository.tcl:97
-msgid "New..."
-msgstr "Mới..."
-
-#: lib/choose_repository.tcl:104 lib/choose_repository.tcl:480
-msgid "Clone Existing Repository"
-msgstr "Nhân bản một kho sẵn có"
-
-#: lib/choose_repository.tcl:115
-msgid "Clone..."
-msgstr "Nhân bản..."
-
-#: lib/choose_repository.tcl:122 lib/choose_repository.tcl:1019
-msgid "Open Existing Repository"
-msgstr "Mở một kho đã có."
-
-#: lib/choose_repository.tcl:128
-msgid "Open..."
-msgstr "Mở..."
-
-#: lib/choose_repository.tcl:141
-msgid "Recent Repositories"
-msgstr "Các kho mới dùng"
-
-#: lib/choose_repository.tcl:147
-msgid "Open Recent Repository:"
-msgstr "Mở kho mới dùng:"
-
-#: lib/choose_repository.tcl:315 lib/choose_repository.tcl:322
-#: lib/choose_repository.tcl:329
+#: lib/transport.tcl:6 lib/remote_add.tcl:132
 #, tcl-format
-msgid "Failed to create repository %s:"
-msgstr "Gặp lỗi khi tạo kho %s:"
+msgid "fetch %s"
+msgstr "lấy về %s"
 
-#: lib/choose_repository.tcl:401
-msgid "Directory:"
-msgstr "Thư mục:"
-
-#: lib/choose_repository.tcl:431 lib/choose_repository.tcl:552
-#: lib/choose_repository.tcl:1053
-msgid "Git Repository"
-msgstr "Kho Git"
-
-#: lib/choose_repository.tcl:456
+#: lib/transport.tcl:7
 #, tcl-format
-msgid "Directory %s already exists."
-msgstr "Thư mục %s đã sẵn có."
+msgid "Fetching new changes from %s"
+msgstr "Lấy các thay đổi mới từ %s"
 
-#: lib/choose_repository.tcl:460
+#: lib/transport.tcl:18
 #, tcl-format
-msgid "File %s already exists."
-msgstr "Tập tin %s đã có sẵn."
+msgid "remote prune %s"
+msgstr "xén bớt trên máy chủ %s"
 
-#: lib/choose_repository.tcl:475
-msgid "Clone"
-msgstr "Nhân bản"
-
-#: lib/choose_repository.tcl:488
-msgid "Source Location:"
-msgstr "Vị trí nguồn:"
-
-#: lib/choose_repository.tcl:497
-msgid "Target Directory:"
-msgstr "Thư mục đích:"
-
-#: lib/choose_repository.tcl:507
-msgid "Clone Type:"
-msgstr "Kiểu nhân bản:"
-
-#: lib/choose_repository.tcl:512
-msgid "Standard (Fast, Semi-Redundant, Hardlinks)"
-msgstr "Tiêu chuẩn (Nhanh, Semi-Redundant, Hardlinks)"
-
-#: lib/choose_repository.tcl:517
-msgid "Full Copy (Slower, Redundant Backup)"
-msgstr "Sao chép toàn bộ (Chậm hơn, Redundant Backup)"
-
-#: lib/choose_repository.tcl:522
-msgid "Shared (Fastest, Not Recommended, No Backup)"
-msgstr "Chia sẻ (Nhanh nhất, Không nên dùng, No Backup)"
-
-#: lib/choose_repository.tcl:558 lib/choose_repository.tcl:605
-#: lib/choose_repository.tcl:751 lib/choose_repository.tcl:821
-#: lib/choose_repository.tcl:1059 lib/choose_repository.tcl:1067
+#: lib/transport.tcl:19
 #, tcl-format
-msgid "Not a Git repository: %s"
-msgstr "Không phải là kho git: %s"
+msgid "Pruning tracking branches deleted from %s"
+msgstr "Xén bớt các nhánh theo dõi bị xóa từ %s"
 
-#: lib/choose_repository.tcl:594
-msgid "Standard only available for local repository."
-msgstr "Tiêu chuẩn chỉ sẵn sàng với kho nội bộ."
+#: lib/transport.tcl:25
+msgid "fetch all remotes"
+msgstr "lấy về từ tất cả các máy chủ"
 
-#: lib/choose_repository.tcl:598
-msgid "Shared only available for local repository."
-msgstr "'Chia sẻ' chỉ sẵn sàng với kho nội bộ."
+#: lib/transport.tcl:26
+msgid "Fetching new changes from all remotes"
+msgstr "Đang lấy các thay đổi mới từ mọi máy chủ"
 
-#: lib/choose_repository.tcl:619
+#: lib/transport.tcl:40
+msgid "remote prune all remotes"
+msgstr "xén bớt mọi máy chủ"
+
+#: lib/transport.tcl:41
+msgid "Pruning tracking branches deleted from all remotes"
+msgstr "Xén tỉa các nhánh đã theo dõi bị xóa từ mọi máy chủ"
+
+#: lib/transport.tcl:54 lib/transport.tcl:92 lib/transport.tcl:110
+#: lib/remote_add.tcl:162
 #, tcl-format
-msgid "Location %s already exists."
-msgstr "Miền địa phương %s đã sẵn có."
+msgid "push %s"
+msgstr "đẩy %s lên máy chủ"
 
-#: lib/choose_repository.tcl:630
-msgid "Failed to configure origin"
-msgstr "Gặp lỗi khi cấu hình bản gốc"
-
-#: lib/choose_repository.tcl:642
-msgid "Counting objects"
-msgstr "Đang đếm số đối tượng"
-
-#: lib/choose_repository.tcl:643
-msgid "buckets"
-msgstr "xô"
-
-#: lib/choose_repository.tcl:667
+#: lib/transport.tcl:55
 #, tcl-format
-msgid "Unable to copy objects/info/alternates: %s"
-msgstr "Không thể sao chép objects/info/alternates: %s"
+msgid "Pushing changes to %s"
+msgstr "Đang đẩy các nhánh lên %s"
 
-#: lib/choose_repository.tcl:703
+#: lib/transport.tcl:93
 #, tcl-format
-msgid "Nothing to clone from %s."
-msgstr "Không có gì để nhân bản từ %s"
+msgid "Mirroring to %s"
+msgstr "Bản sao đến %s"
 
-#: lib/choose_repository.tcl:705 lib/choose_repository.tcl:919
-#: lib/choose_repository.tcl:931
-msgid "The 'master' branch has not been initialized."
-msgstr "Nhánh 'master' chưa được khởi tạo."
-
-#: lib/choose_repository.tcl:718
-msgid "Hardlinks are unavailable.  Falling back to copying."
-msgstr "Liên kết cứng không sẵn sàng. Trở lại chế độ sao chép."
-
-#: lib/choose_repository.tcl:730
+#: lib/transport.tcl:111
 #, tcl-format
-msgid "Cloning from %s"
-msgstr "Đang nhân bản từ %s"
+msgid "Pushing %s %s to %s"
+msgstr "Đang (đẩy) %s %s lên %s"
 
-#: lib/choose_repository.tcl:761
-msgid "Copying objects"
-msgstr "Đang chép các đối tượng"
+#: lib/transport.tcl:132
+msgid "Push Branches"
+msgstr "Đẩy lên các nhánh"
 
-#: lib/choose_repository.tcl:762
-msgid "KiB"
-msgstr "KiB"
+#: lib/transport.tcl:147
+msgid "Source Branches"
+msgstr "Nhánh nguồn"
 
-#: lib/choose_repository.tcl:786
+#: lib/transport.tcl:162
+msgid "Destination Repository"
+msgstr "Kho chứa đích"
+
+#: lib/transport.tcl:165 lib/remote_branch_delete.tcl:51
+msgid "Remote:"
+msgstr "Máy chủ:"
+
+#: lib/transport.tcl:187 lib/remote_branch_delete.tcl:72
+msgid "Arbitrary Location:"
+msgstr "Địa điểm tùy ý:"
+
+#: lib/transport.tcl:205
+msgid "Transfer Options"
+msgstr "Tùy chọn truyền"
+
+#: lib/transport.tcl:207
+msgid "Force overwrite existing branch (may discard changes)"
+msgstr "Ép buộc ghi đè nhánh sẵn có (có thể sẽ loại bỏ các thay đổi)"
+
+#: lib/transport.tcl:211
+msgid "Use thin pack (for slow network connections)"
+msgstr "Dùng gói mỏng (dành cho kết nối mạng chậm)"
+
+#: lib/transport.tcl:215
+msgid "Include tags"
+msgstr "Bao gồm các thẻ"
+
+#: lib/remote_add.tcl:20
+msgid "Add Remote"
+msgstr "Thêm máy chủ"
+
+#: lib/remote_add.tcl:25
+msgid "Add New Remote"
+msgstr "Thêm máy chủ mới"
+
+#: lib/remote_add.tcl:30 lib/tools_dlg.tcl:37
+msgid "Add"
+msgstr "Thêm vào"
+
+#: lib/remote_add.tcl:39
+msgid "Remote Details"
+msgstr "Chi tiết về máy chủ"
+
+#: lib/remote_add.tcl:41 lib/tools_dlg.tcl:51 lib/branch_create.tcl:44
+msgid "Name:"
+msgstr "Tên:"
+
+#: lib/remote_add.tcl:50
+msgid "Location:"
+msgstr "Vị trí:"
+
+#: lib/remote_add.tcl:60
+msgid "Further Action"
+msgstr "Hành động thêm"
+
+#: lib/remote_add.tcl:63
+msgid "Fetch Immediately"
+msgstr "Lấy về ngay lập tức"
+
+#: lib/remote_add.tcl:69
+msgid "Initialize Remote Repository and Push"
+msgstr "Khởi tạo Kho máy chủ và đẩy dữ liệu lên"
+
+#: lib/remote_add.tcl:75
+msgid "Do Nothing Else Now"
+msgstr "Không làm gì cả"
+
+#: lib/remote_add.tcl:100
+msgid "Please supply a remote name."
+msgstr "Hãy cung cấp tên máy chủ."
+
+#: lib/remote_add.tcl:113
 #, tcl-format
-msgid "Unable to copy object: %s"
-msgstr "Không thể chép đối tượng: %s"
+msgid "'%s' is not an acceptable remote name."
+msgstr "“%s” không phải là tên máy chủ được chấp nhận."
 
-#: lib/choose_repository.tcl:796
-msgid "Linking objects"
-msgstr "Đang liên kết các đối tượng"
-
-#: lib/choose_repository.tcl:797
-msgid "objects"
-msgstr "đối tượng"
-
-#: lib/choose_repository.tcl:805
+#: lib/remote_add.tcl:124
 #, tcl-format
-msgid "Unable to hardlink object: %s"
-msgstr "Không thể tạo liên kết cứng đối tượng: %s"
+msgid "Failed to add remote '%s' of location '%s'."
+msgstr "Gặp lỗi khi thêm máy chủ “%s” của vị trí “%s”."
 
-#: lib/choose_repository.tcl:860
-msgid "Cannot fetch branches and objects.  See console output for details."
-msgstr ""
-"Không thể lấy các nhánh và đối tượng. Xem kết xuất từ bảng điều khiển để có "
-"thêm thông tin."
-
-#: lib/choose_repository.tcl:871
-msgid "Cannot fetch tags.  See console output for details."
-msgstr ""
-"Không thể lấy về các thẻ. Hãy xem kết xuất từ bảng điều khiển để có thêm "
-"thông tin chi tiết."
-
-#: lib/choose_repository.tcl:895
-msgid "Cannot determine HEAD.  See console output for details."
-msgstr ""
-"Không thể dò tìm HEAD. Hãy xem kết xuất từ bảng điều khiển để có thêm thông "
-"tin chi tiết."
-
-#: lib/choose_repository.tcl:904
+#: lib/remote_add.tcl:133
 #, tcl-format
-msgid "Unable to cleanup %s"
-msgstr "Không thể dọn sạch %s"
+msgid "Fetching the %s"
+msgstr "Đang lấy về %s"
 
-#: lib/choose_repository.tcl:910
-msgid "Clone failed."
-msgstr "Gặp lỗi khi nhân bản."
-
-#: lib/choose_repository.tcl:917
-msgid "No default branch obtained."
-msgstr "Không tìm thấy nhánh mặc định."
-
-#: lib/choose_repository.tcl:928
+#: lib/remote_add.tcl:156
 #, tcl-format
-msgid "Cannot resolve %s as a commit."
-msgstr "Không thể phân giải %s như là một lần chuyển giao."
+msgid "Do not know how to initialize repository at location '%s'."
+msgstr "Không hiểu làm thế nào để khởi tạo kho chứa tại vị trí “%s”."
 
-#: lib/choose_repository.tcl:940
-msgid "Creating working directory"
-msgstr "Đang tạo thư mục làm việc"
-
-#: lib/choose_repository.tcl:941 lib/index.tcl:70 lib/index.tcl:136
-#: lib/index.tcl:207
-msgid "files"
-msgstr "tập tin"
-
-#: lib/choose_repository.tcl:970
-msgid "Initial file checkout failed."
-msgstr "Lấy ra tập tin khởi tạo gặp lỗi."
-
-#: lib/choose_repository.tcl:1014
-msgid "Open"
-msgstr "Mở"
-
-#: lib/choose_repository.tcl:1024
-msgid "Repository:"
-msgstr "Kho:"
-
-#: lib/choose_repository.tcl:1073
+#: lib/remote_add.tcl:163
 #, tcl-format
-msgid "Failed to open repository %s:"
-msgstr "Gặp lỗi khi mở kho %s:"
+msgid "Setting up the %s (at %s)"
+msgstr "Cài đặt “%s” (tại %s)"
 
-#: lib/choose_rev.tcl:52
-msgid "This Detached Checkout"
-msgstr "Đây là việc lấy ra bị tách rời"
+#: lib/browser.tcl:17
+msgid "Starting..."
+msgstr "Đang khởi động…"
 
-#: lib/choose_rev.tcl:60
-msgid "Revision Expression:"
-msgstr "Biểu thức điểm xét:"
+#: lib/browser.tcl:27
+msgid "File Browser"
+msgstr "Bộ duyệt tập tin"
 
-#: lib/choose_rev.tcl:72
-msgid "Local Branch"
-msgstr "Nhánh nội bộ"
-
-#: lib/choose_rev.tcl:77
-msgid "Tracking Branch"
-msgstr "Nhánh Theo dõi"
-
-#: lib/choose_rev.tcl:82 lib/choose_rev.tcl:544
-msgid "Tag"
-msgstr "Thẻ"
-
-#: lib/choose_rev.tcl:321
+#: lib/browser.tcl:132 lib/browser.tcl:149
 #, tcl-format
-msgid "Invalid revision: %s"
-msgstr "Điểm xét duyệt không hợp lệ: %s"
-
-#: lib/choose_rev.tcl:342
-msgid "No revision selected."
-msgstr "Chưa chọn điểm xét duyệt."
-
-#: lib/choose_rev.tcl:350
-msgid "Revision expression is empty."
-msgstr "Biểu thức chính quy rỗng."
-
-#: lib/choose_rev.tcl:537
-msgid "Updated"
-msgstr "Đã cập nhật"
-
-#: lib/choose_rev.tcl:565
-msgid "URL"
-msgstr "URL"
-
-#: lib/commit.tcl:9
-msgid ""
-"There is nothing to amend.\n"
-"\n"
-"You are about to create the initial commit.  There is no commit before this "
-"to amend.\n"
-msgstr ""
-"Ở đây chẳng có gì để tu bổ cả.\n"
-"\n"
-"Bạn đang tạo lần chuyển giao khởi tạo. Ở đây không có lần chuyển giao trước "
-"nào để mà tu bổ.\n"
-
-#: lib/commit.tcl:18
-msgid ""
-"Cannot amend while merging.\n"
-"\n"
-"You are currently in the middle of a merge that has not been fully "
-"completed.  You cannot amend the prior commit unless you first abort the "
-"current merge activity.\n"
-msgstr ""
-"Không thể tu bổ trong khi hòa trộn.\n"
-"\n"
-"Bạn hiện đang ở giữa quá trình hòa trôn, mà nó chưa hoàn tất. Bạn không thể "
-"tu bổ  lần chuyển giao tiền nhiệm trừ phi bạn bãi bỏ lần hòa trộn hiện đang "
-"kích hoạt.\n"
-
-#: lib/commit.tcl:48
-msgid "Error loading commit data for amend:"
-msgstr "Gặp lỗi khi tải dữ liệu chuyển giao cho lệnh tu bổ:"
-
-#: lib/commit.tcl:75
-msgid "Unable to obtain your identity:"
-msgstr "Không thể lấy được định danh của bạn:"
-
-#: lib/commit.tcl:80
-msgid "Invalid GIT_COMMITTER_IDENT:"
-msgstr "GIT_COMMITTER_IDENT không hợp lệ:"
-
-#: lib/commit.tcl:129
-#, tcl-format
-msgid "warning: Tcl does not support encoding '%s'."
-msgstr "cảnh báo: Tcl không hỗ trợ bảng mã '%s'."
-
-#: lib/commit.tcl:149
-msgid ""
-"Last scanned state does not match repository state.\n"
-"\n"
-"Another Git program has modified this repository since the last scan.  A "
-"rescan must be performed before another commit can be created.\n"
-"\n"
-"The rescan will be automatically started now.\n"
-msgstr ""
-"Trạng thái quét không khớp với trạng thái kho.\n"
-"\n"
-"Có Git khác đã sửa kho này kể từ lần quét cuối. Cần quét lại trước khi thực "
-"hiện việc chuyển giao khác.\n"
-"\n"
-"Sẽ thực hiện việc quét lại ngay bây giời.\n"
-
-#: lib/commit.tcl:173
-#, tcl-format
-msgid ""
-"Unmerged files cannot be committed.\n"
-"\n"
-"File %s has merge conflicts.  You must resolve them and stage the file "
-"before committing.\n"
-msgstr ""
-"Các tập tin chưa hòa trộn không thể được chuyển giao.\n"
-"\n"
-"Tập tin %s có xung đột hòa trộn. Bạn phải giải quyết chúng và đưa lên bệ "
-"phóng trước khi chuyển giao.\n"
-
-#: lib/commit.tcl:181
-#, tcl-format
-msgid ""
-"Unknown file state %s detected.\n"
-"\n"
-"File %s cannot be committed by this program.\n"
-msgstr ""
-"Tìm thấy trạng thái tập tim không hiểu %s.\n"
-"\n"
-"Tập tin %s không thể được chuyển giao bởi chương trình này.\n"
-
-#: lib/commit.tcl:189
-msgid ""
-"No changes to commit.\n"
-"\n"
-"You must stage at least 1 file before you can commit.\n"
-msgstr ""
-"Không có thay đổi nào cần chuyển giao.\n"
-"\n"
-"Bạn phải đưa lên bệ phóng ít nhất là một tập tin trước khi có thể chuyển "
-"giao.\n"
-
-#: lib/commit.tcl:204
-msgid ""
-"Please supply a commit message.\n"
-"\n"
-"A good commit message has the following format:\n"
-"\n"
-"- First line: Describe in one sentence what you did.\n"
-"- Second line: Blank\n"
-"- Remaining lines: Describe why this change is good.\n"
-msgstr ""
-"Hãy cung cấp lời chú giải cho lần chuyển giao.\n"
-"\n"
-"Lời chú giải tốt nhất nên có định dạng sau:\n"
-"\n"
-"- Dòng đầu tiên: Mô tả những gì bạn đã làm.\n"
-"- Dòng thứ hai: Để trống\n"
-"- Các dòng còn lại: Mô tả xem vì sao những thay đổi này là cần thiết.\n"
-
-#: lib/commit.tcl:235
-msgid "Calling pre-commit hook..."
-msgstr "Đang gọi móc (hook) pre-commit..."
-
-#: lib/commit.tcl:250
-msgid "Commit declined by pre-commit hook."
-msgstr "Lần chuyển giao bị khước từ do móc pre-commit."
-
-#: lib/commit.tcl:269
-msgid ""
-"You are about to commit on a detached head. This is a potentially dangerous "
-"thing to do because if you switch to another branch you will lose your "
-"changes and it can be difficult to retrieve them later from the reflog. You "
-"should probably cancel this commit and create a new branch to continue.\n"
-" \n"
-" Do you really want to proceed with your Commit?"
-msgstr ""
-"Bạn thực hiện chuyển giao ở chỗ đã tách rời khỏi các đầu. Điều này là nguy "
-"hiểm bởi nếu bạn chuyển sang nhánh khác thì bạn sẽ mất những thay đổi này và "
-"việc lấy lại chúng từ reflog cũng khó khăn. Bạn gần như chắc chắn là nên hủy "
-"bỏ lần chuyển giao này và tạo một nhánh mới trước khi tiếp tục.\n"
-" \n"
-" Bạn có thực sự muốn tiếp tục chuyển giao?"
-
-#: lib/commit.tcl:290
-msgid "Calling commit-msg hook..."
-msgstr "Đang gọi móc commit-msg..."
-
-#: lib/commit.tcl:305
-msgid "Commit declined by commit-msg hook."
-msgstr "Lần chuyển giao bị khước từ do móc commit-msg."
-
-#: lib/commit.tcl:318
-msgid "Committing changes..."
-msgstr "Chuyển giao các thay đổi..."
-
-#: lib/commit.tcl:334
-msgid "write-tree failed:"
-msgstr "gặp lỗi khi write-tree:"
-
-#: lib/commit.tcl:335 lib/commit.tcl:379 lib/commit.tcl:400
-msgid "Commit failed."
-msgstr "Gặp lỗi khi chuyển giao."
-
-#: lib/commit.tcl:352
-#, tcl-format
-msgid "Commit %s appears to be corrupt"
-msgstr "Lần chuyển giao %s có vẻ đã hư hỏng"
-
-#: lib/commit.tcl:357
-msgid ""
-"No changes to commit.\n"
-"\n"
-"No files were modified by this commit and it was not a merge commit.\n"
-"\n"
-"A rescan will be automatically started now.\n"
-msgstr ""
-"Không có thay đổi nào để chuyển giao.\n"
-"\n"
-"Không có tập tin nào được sửa bởi lần chuyển giao này và nó không phải là "
-"lần chuyển giao hòa trộn.\n"
-"\n"
-"Sẽ thực hiện việc quét lại ngay bây giờ.\n"
-
-#: lib/commit.tcl:364
-msgid "No changes to commit."
-msgstr "Không có thay đổi nào để chuyển giao."
-
-#: lib/commit.tcl:378
-msgid "commit-tree failed:"
-msgstr "commit-tree gặp lỗi:"
-
-#: lib/commit.tcl:399
-msgid "update-ref failed:"
-msgstr "cập nhật tham chiếu thất bại:"
-
-#: lib/commit.tcl:492
-#, tcl-format
-msgid "Created commit %s: %s"
-msgstr "Lần chuyển giao đã tạo %s: %s"
-
-#: lib/console.tcl:59
-msgid "Working... please wait..."
-msgstr "Đang chạy.. vui lòng đợi..."
-
-#: lib/console.tcl:186
-msgid "Success"
-msgstr "Thành công"
-
-#: lib/console.tcl:200
-msgid "Error: Command Failed"
-msgstr "Lỗi: Câu lệnh gặp lỗi"
-
-#: lib/database.tcl:42
-msgid "Number of loose objects"
-msgstr "Số lượng đối tượng bị mất"
-
-#: lib/database.tcl:43
-msgid "Disk space used by loose objects"
-msgstr "Dung lượng đĩa được dùng bởi các đối tượng bị mất"
-
-#: lib/database.tcl:44
-msgid "Number of packed objects"
-msgstr "Số lượng đối tượng được đóng gói"
-
-#: lib/database.tcl:45
-msgid "Number of packs"
-msgstr "Số lượng gói"
-
-#: lib/database.tcl:46
-msgid "Disk space used by packed objects"
-msgstr "Dung lượng đĩa được dùng bởi các đối tượng gói"
-
-#: lib/database.tcl:47
-msgid "Packed objects waiting for pruning"
-msgstr "Các đối tượng gói chờ xén bớt"
-
-#: lib/database.tcl:48
-msgid "Garbage files"
-msgstr "Các tập tin rác"
-
-#: lib/database.tcl:72
-msgid "Compressing the object database"
-msgstr "Nén cơ sở dữ liệu đối tượng"
-
-#: lib/database.tcl:83
-msgid "Verifying the object database with fsck-objects"
-msgstr "Đang kiểm tra cơ sở dữ liệu đối tượng bằng lệnh fsck"
-
-#: lib/database.tcl:107
-#, tcl-format
-msgid ""
-"This repository currently has approximately %i loose objects.\n"
-"\n"
-"To maintain optimal performance it is strongly recommended that you compress "
-"the database.\n"
-"\n"
-"Compress the database now?"
-msgstr ""
-"Hiện kho này mất ước chừng khoảng %i đối tượng.\n"
-"\n"
-"Để tối ưu hóa hiệu suất, khuyến nghị bạn nên nén cơ sở dữ liệu của mình "
-"lại.\n"
-"\n"
-"Nén cơ sở dữ liệu chứ?"
-
-#: lib/date.tcl:25
-#, tcl-format
-msgid "Invalid date from Git: %s"
-msgstr "Ngày tháng không hợp lệ từ Git: %s"
-
-#: lib/diff.tcl:64
-#, tcl-format
-msgid ""
-"No differences detected.\n"
-"\n"
-"%s has no changes.\n"
-"\n"
-"The modification date of this file was updated by another application, but "
-"the content within the file was not changed.\n"
-"\n"
-"A rescan will be automatically started to find other files which may have "
-"the same state."
-msgstr ""
-"Không tìm thấy khác biệt gì.\n"
-"\n"
-"%s không thay đổi.\n"
-"\n"
-"Thời gian sửa đổi của tập tin này được cập nhật bởi ứng dụng khác, nhưng nội "
-"dung bên trong tập tin thì không thay đổi.\n"
-"\n"
-"Sẽ thực hiện quét lại một cách tự động để tìm các tập tin khác cái mà có thể "
-"có cùng tình trạng."
-
-#: lib/diff.tcl:104
-#, tcl-format
-msgid "Loading diff of %s..."
-msgstr "Đang tải diff của %s..."
-
-#: lib/diff.tcl:125
-msgid ""
-"LOCAL: deleted\n"
-"REMOTE:\n"
-msgstr ""
-"NỘIBỘ: đã xoá\n"
-"MÁYCHỦ:\n"
-
-#: lib/diff.tcl:130
-msgid ""
-"REMOTE: deleted\n"
-"LOCAL:\n"
-msgstr ""
-"MÁYCHỦ: đã xoá\n"
-"NỘIBỘ:\n"
-
-#: lib/diff.tcl:137
-msgid "LOCAL:\n"
-msgstr "NỘI-BỘ:\n"
-
-#: lib/diff.tcl:140
-msgid "REMOTE:\n"
-msgstr "MÁY-CHỦ:\n"
-
-#: lib/diff.tcl:202 lib/diff.tcl:340
-#, tcl-format
-msgid "Unable to display %s"
-msgstr "Không thể hiển thị %s"
-
-#: lib/diff.tcl:203
-msgid "Error loading file:"
-msgstr "Lỗi khi tải tập tin:"
-
-#: lib/diff.tcl:210
-msgid "Git Repository (subproject)"
-msgstr "Kho Git (dự án con)"
-
-#: lib/diff.tcl:222
-msgid "* Binary file (not showing content)."
-msgstr "* Tập tin nhị phân (không hiển thị nội dung)."
-
-#: lib/diff.tcl:227
-#, tcl-format
-msgid ""
-"* Untracked file is %d bytes.\n"
-"* Showing only first %d bytes.\n"
-msgstr ""
-"* Tập tin chưa theo dõi là %d byte.\n"
-"* Chỉ hiển thị %d byte đầu .\n"
-
-#: lib/diff.tcl:233
-#, tcl-format
-msgid ""
-"\n"
-"* Untracked file clipped here by %s.\n"
-"* To see the entire file, use an external editor.\n"
-msgstr ""
-"\n"
-"* Tập tin chưa theo dõi được cắt tại đây bởi %s.\n"
-"* Để xem toàn bộ tập tin, hãy dùng ứng dụng biên soạn bên ngoài.\n"
-
-#: lib/diff.tcl:560
-msgid "Failed to unstage selected hunk."
-msgstr "Gặp lỗi khi bỏ ra khỏi bệ phóng khối đã chọn"
-
-#: lib/diff.tcl:567
-msgid "Failed to stage selected hunk."
-msgstr "Gặp lỗi khi đưa lên bệ phóng khối đã chọn"
-
-#: lib/diff.tcl:646
-msgid "Failed to unstage selected line."
-msgstr "Gặp lỗi khi bỏ ra khỏi bệ phóng dòng đã chọn"
-
-#: lib/diff.tcl:654
-msgid "Failed to stage selected line."
-msgstr "Gặp lỗi khi đưa lên bệ phóng dòng đã chọn"
-
-#: lib/encoding.tcl:443
-msgid "Default"
-msgstr "Mặc định"
-
-#: lib/encoding.tcl:448
-#, tcl-format
-msgid "System (%s)"
-msgstr "Hệ thống (%s)"
-
-#: lib/encoding.tcl:459 lib/encoding.tcl:465
-msgid "Other"
-msgstr "Khác"
-
-#: lib/error.tcl:20 lib/error.tcl:116
-msgid "error"
-msgstr "lỗi"
-
-#: lib/error.tcl:36
-msgid "warning"
-msgstr "cảnh báo"
-
-#: lib/error.tcl:96
-msgid "You must correct the above errors before committing."
-msgstr "Bạn phải sửa các lỗi trên trước khi chuyển giao."
-
-#: lib/index.tcl:6
-msgid "Unable to unlock the index."
-msgstr "Không thể bỏ khóa bảng mục lục"
-
-#: lib/index.tcl:17
-msgid "Index Error"
-msgstr "Lỗi mục lục"
-
-#: lib/index.tcl:19
-msgid ""
-"Updating the Git index failed.  A rescan will be automatically started to "
-"resynchronize git-gui."
-msgstr ""
-"Cập nhật mục lục cho Git gặp lỗi. Việc quét lại sẽ tự động được khởi chạy để "
-"đồng hóa lại với git-gui."
-
-#: lib/index.tcl:30
-msgid "Continue"
-msgstr "Tiếp tục"
-
-#: lib/index.tcl:33
-msgid "Unlock Index"
-msgstr "Bỏ khóa mục lục"
-
-#: lib/index.tcl:298
-#, tcl-format
-msgid "Unstaging %s from commit"
-msgstr "Bỏ %s ra khỏi việc chuyển giao"
-
-#: lib/index.tcl:337
-msgid "Ready to commit."
-msgstr "Đã chuyển giao rồi."
-
-#: lib/index.tcl:350
-#, tcl-format
-msgid "Adding %s"
-msgstr "Đang thêm %s"
-
-#: lib/index.tcl:380
-#, tcl-format
-msgid "Stage %d untracked files?"
-msgstr "Đưa %d tập tin chưa theo dõi lên bệ phóng để chuyển giao?"
-
-#: lib/index.tcl:428
-#, tcl-format
-msgid "Revert changes in file %s?"
-msgstr "Hoàn nguyên các thay đổi trong tập tin %s?"
-
-#: lib/index.tcl:430
-#, tcl-format
-msgid "Revert changes in these %i files?"
-msgstr "Hoàn nguyên các thay đổi trong %i tập tin?"
-
-#: lib/index.tcl:438
-msgid "Any unstaged changes will be permanently lost by the revert."
-msgstr ""
-"Mọi thay đổi chưa được đưa lên bệ phóng sẽ mất vĩnh viễn do lệnh revert."
-
-#: lib/index.tcl:441
-msgid "Do Nothing"
-msgstr "Không làm gì"
-
-#: lib/index.tcl:459
-msgid "Reverting selected files"
-msgstr "Đang hoàn nguyên các tập tin đã chọn"
-
-#: lib/index.tcl:463
-#, tcl-format
-msgid "Reverting %s"
-msgstr "Đang hoàn nguyên %s"
-
-#: lib/line.tcl:17
-msgid "Goto Line:"
-msgstr "Nhảy đến dòng:"
-
-#: lib/line.tcl:23
-msgid "Go"
-msgstr "Nhảy"
+msgid "Loading %s..."
+msgstr "Đang tải %s…"
+
+#: lib/browser.tcl:193
+msgid "[Up To Parent]"
+msgstr "[Tới cha mẹ]"
+
+#: lib/browser.tcl:275 lib/browser.tcl:282
+msgid "Browse Branch Files"
+msgstr "Duyệt các tập tin nhánh"
+
+#: lib/browser.tcl:288 lib/choose_repository.tcl:422
+#: lib/choose_repository.tcl:509 lib/choose_repository.tcl:518
+#: lib/choose_repository.tcl:1074
+msgid "Browse"
+msgstr "Tìm duyệt"
+
+#: lib/browser.tcl:297 lib/branch_checkout.tcl:35 lib/tools_dlg.tcl:321
+msgid "Revision"
+msgstr "Điểm sửa đổi"
 
 #: lib/merge.tcl:13
 msgid ""
@@ -1898,7 +1046,7 @@ msgstr "%s trên %s"
 #: lib/merge.tcl:122
 #, tcl-format
 msgid "Merging %s and %s..."
-msgstr "Đang hòa trộn %s và %s..."
+msgstr "Đang hòa trộn %s và %s…"
 
 #: lib/merge.tcl:133
 msgid "Merge completed successfully."
@@ -1972,104 +1120,261 @@ msgstr "Gặp lỗi khi bãi bỏ."
 msgid "Abort completed.  Ready."
 msgstr "Đã bãi bỏ xong.  Sẵn sàng."
 
-#: lib/mergetool.tcl:8
-msgid "Force resolution to the base version?"
-msgstr "Buộc phân giải thành nhánh cơ sở?"
+#: lib/tools.tcl:75
+#, tcl-format
+msgid "Running %s requires a selected file."
+msgstr "Chạy %s yêu cầu cần phải chọn một tập tin."
 
-#: lib/mergetool.tcl:9
-msgid "Force resolution to this branch?"
-msgstr "Buộc phân giải thành nhánh này?"
+#: lib/tools.tcl:91
+#, tcl-format
+msgid "Are you sure you want to run %1$s on file \"%2$s\"?"
+msgstr "Bạn có chắc là muốn chạy %1$s trên tập tin \"%2$s\" không?"
 
-#: lib/mergetool.tcl:10
-msgid "Force resolution to the other branch?"
-msgstr "Buộc phân giải thành nhánh khác?"
+#: lib/tools.tcl:95
+#, tcl-format
+msgid "Are you sure you want to run %s?"
+msgstr "Bạn có chắc là muốn chạy %s không?"
 
-#: lib/mergetool.tcl:14
+#: lib/tools.tcl:116
+#, tcl-format
+msgid "Tool: %s"
+msgstr "Công cụ: %s"
+
+#: lib/tools.tcl:117
+#, tcl-format
+msgid "Running: %s"
+msgstr "Đang chạy: %s"
+
+#: lib/tools.tcl:155
+#, tcl-format
+msgid "Tool completed successfully: %s"
+msgstr "Công cụ được biên dịch thành công: %s"
+
+#: lib/tools.tcl:157
+#, tcl-format
+msgid "Tool failed: %s"
+msgstr "Công cụ gặp lỗi: %s"
+
+#: lib/branch_checkout.tcl:16 lib/branch_checkout.tcl:21
+msgid "Checkout Branch"
+msgstr "Lấy ra nhánh"
+
+#: lib/branch_checkout.tcl:26
+msgid "Checkout"
+msgstr "Lấy ra"
+
+#: lib/branch_checkout.tcl:39 lib/option.tcl:310 lib/branch_create.tcl:69
+msgid "Options"
+msgstr "Tùy chọn"
+
+#: lib/branch_checkout.tcl:42 lib/branch_create.tcl:92
+msgid "Fetch Tracking Branch"
+msgstr "Lấy về nhánh được theo dõi"
+
+#: lib/branch_checkout.tcl:47
+msgid "Detach From Local Branch"
+msgstr "Tách rời từ Nhánh nội bộ"
+
+#: lib/spellcheck.tcl:57
+msgid "Unsupported spell checker"
+msgstr "Không hỗ trợ kiểm tra chính tả"
+
+#: lib/spellcheck.tcl:65
+msgid "Spell checking is unavailable"
+msgstr "Kiểm tra chính tả không sẵn sàng"
+
+#: lib/spellcheck.tcl:68
+msgid "Invalid spell checking configuration"
+msgstr "Cấu hình bộ soát chính tả không hợp lệ"
+
+#: lib/spellcheck.tcl:70
+#, tcl-format
+msgid "Reverting dictionary to %s."
+msgstr "Đang hoàn nguyên từ điển thành %s."
+
+#: lib/spellcheck.tcl:73
+msgid "Spell checker silently failed on startup"
+msgstr "Phần kiểm tra chính tả đã gặp lỗi khi khởi động"
+
+#: lib/spellcheck.tcl:80
+msgid "Unrecognized spell checker"
+msgstr "Không chấp nhận bộ kiểm tra chính tả"
+
+#: lib/spellcheck.tcl:186
+msgid "No Suggestions"
+msgstr "Không có gợi ý"
+
+#: lib/spellcheck.tcl:388
+msgid "Unexpected EOF from spell checker"
+msgstr "Gặp kết thúc bất ngờ từ bộ kiểm tra chính tả"
+
+#: lib/spellcheck.tcl:392
+msgid "Spell Checker Failed"
+msgstr "Kiểm tra chính tả không thành công"
+
+#: lib/status_bar.tcl:87
+#, tcl-format
+msgid "%s ... %*i of %*i %s (%3i%%)"
+msgstr "%s … %*i trong %*i %s (%3i%%)"
+
+#: lib/diff.tcl:77
 #, tcl-format
 msgid ""
-"Note that the diff shows only conflicting changes.\n"
+"No differences detected.\n"
 "\n"
-"%s will be overwritten.\n"
+"%s has no changes.\n"
 "\n"
-"This operation can be undone only by restarting the merge."
+"The modification date of this file was updated by another application, but "
+"the content within the file was not changed.\n"
+"\n"
+"A rescan will be automatically started to find other files which may have "
+"the same state."
 msgstr ""
-"Chú ý là diff chỉ hiển thị những thay đổi xung đột.\n"
+"Không tìm thấy khác biệt gì.\n"
 "\n"
-"%s sẽ bị ghi đè.\n"
+"%s không thay đổi.\n"
 "\n"
-"Thao tác này chỉ có thể bỏ dở bằng cách khởi động lại việc hòa trộn."
+"Thời gian sửa đổi của tập tin này được cập nhật bởi ứng dụng khác, nhưng nội "
+"dung bên trong tập tin thì không thay đổi.\n"
+"\n"
+"Sẽ thực hiện quét lại một cách tự động để tìm các tập tin khác cái mà có thể "
+"có cùng tình trạng."
 
-#: lib/mergetool.tcl:45
+#: lib/diff.tcl:117
 #, tcl-format
-msgid "File %s seems to have unresolved conflicts, still stage?"
+msgid "Loading diff of %s..."
+msgstr "Đang tải diff của %s…"
+
+#: lib/diff.tcl:140
+msgid ""
+"LOCAL: deleted\n"
+"REMOTE:\n"
 msgstr ""
-"Tập tin %s có vẻ chưa được giải quyết xung đột, vẫn đánh dấu là cần chuyển "
-"giao?"
+"NỘIBỘ: đã xóa\n"
+"MÁYCHỦ:\n"
 
-#: lib/mergetool.tcl:60
+#: lib/diff.tcl:145
+msgid ""
+"REMOTE: deleted\n"
+"LOCAL:\n"
+msgstr ""
+"MÁYCHỦ: đã xóa\n"
+"NỘIBỘ:\n"
+
+#: lib/diff.tcl:152
+msgid "LOCAL:\n"
+msgstr "NỘI-BỘ:\n"
+
+#: lib/diff.tcl:155
+msgid "REMOTE:\n"
+msgstr "MÁY-CHỦ:\n"
+
+#: lib/diff.tcl:217 lib/diff.tcl:355
 #, tcl-format
-msgid "Adding resolution for %s"
-msgstr "Đang phân giải cho %s"
+msgid "Unable to display %s"
+msgstr "Không thể hiển thị %s"
 
-#: lib/mergetool.tcl:141
-msgid "Cannot resolve deletion or link conflicts using a tool"
-msgstr "Không thể phân giải xung đột xóa hay liên kết dùng một công cụ"
+#: lib/diff.tcl:218
+msgid "Error loading file:"
+msgstr "Lỗi khi tải tập tin:"
 
-#: lib/mergetool.tcl:146
-msgid "Conflict file does not exist"
-msgstr "Tập tin xung đột không tồn tại"
+#: lib/diff.tcl:225
+msgid "Git Repository (subproject)"
+msgstr "Kho Git (dự án con)"
 
-#: lib/mergetool.tcl:246
-#, tcl-format
-msgid "Not a GUI merge tool: '%s'"
-msgstr "Không phải là một công cụ hòa trộn GUI: '%s'"
+#: lib/diff.tcl:237
+msgid "* Binary file (not showing content)."
+msgstr "* Tập tin nhị phân (không hiển thị nội dung)."
 
-#: lib/mergetool.tcl:275
-#, tcl-format
-msgid "Unsupported merge tool '%s'"
-msgstr "Không hỗ trợ công cụ trộn '%s'"
-
-#: lib/mergetool.tcl:310
-msgid "Merge tool is already running, terminate it?"
-msgstr "Công cụ hòa trộn đang chạy rồi, chấm dứt nó?"
-
-#: lib/mergetool.tcl:330
+#: lib/diff.tcl:242
 #, tcl-format
 msgid ""
-"Error retrieving versions:\n"
-"%s"
+"* Untracked file is %d bytes.\n"
+"* Showing only first %d bytes.\n"
 msgstr ""
-"Gặp lỗi khi truy lại phiên bản:\n"
-"%s"
+"* Tập tin chưa theo dõi là %d byte.\n"
+"* Chỉ hiển thị %d byte đầu .\n"
 
-#: lib/mergetool.tcl:350
+#: lib/diff.tcl:248
 #, tcl-format
 msgid ""
-"Could not start the merge tool:\n"
 "\n"
-"%s"
+"* Untracked file clipped here by %s.\n"
+"* To see the entire file, use an external editor.\n"
 msgstr ""
-"Không thể khởi chạy công cụ hòa trộn:\n"
 "\n"
-"%s"
+"* Tập tin chưa theo dõi được cắt tại đây bởi %s.\n"
+"* Để xem toàn bộ tập tin, hãy dùng ứng dụng biên soạn bên ngoài.\n"
 
-#: lib/mergetool.tcl:354
-msgid "Running merge tool..."
-msgstr "Đang chạy công cụ trộn..."
+#: lib/diff.tcl:356 lib/blame.tcl:1128
+msgid "Error loading diff:"
+msgstr "Gặp lỗi khi tải diff:"
 
-#: lib/mergetool.tcl:382 lib/mergetool.tcl:390
-msgid "Merge tool failed."
-msgstr "Công cụ trộn gặp lỗi."
+#: lib/diff.tcl:578
+msgid "Failed to unstage selected hunk."
+msgstr "Gặp lỗi khi bỏ ra khỏi bệ phóng khối đã chọn"
+
+#: lib/diff.tcl:585
+msgid "Failed to stage selected hunk."
+msgstr "Gặp lỗi khi đưa lên bệ phóng khối đã chọn"
+
+#: lib/diff.tcl:664
+msgid "Failed to unstage selected line."
+msgstr "Gặp lỗi khi bỏ ra khỏi bệ phóng dòng đã chọn"
+
+#: lib/diff.tcl:672
+msgid "Failed to stage selected line."
+msgstr "Gặp lỗi khi đưa lên bệ phóng dòng đã chọn"
+
+#: lib/remote.tcl:200
+msgid "Push to"
+msgstr "Đẩy lên"
+
+#: lib/remote.tcl:218
+msgid "Remove Remote"
+msgstr "Gỡ bỏ Máy chủ"
+
+#: lib/remote.tcl:223
+msgid "Prune from"
+msgstr "Xén từ"
+
+#: lib/remote.tcl:228
+msgid "Fetch from"
+msgstr "Lấy về từ"
+
+#: lib/choose_font.tcl:41
+msgid "Select"
+msgstr "Chọn"
+
+#: lib/choose_font.tcl:55
+msgid "Font Family"
+msgstr "Họ phông chữ"
+
+#: lib/choose_font.tcl:76
+msgid "Font Size"
+msgstr "Cỡ phông chữ"
+
+#: lib/choose_font.tcl:93
+msgid "Font Example"
+msgstr "Phông chữ ví dụ"
+
+#: lib/choose_font.tcl:105
+msgid ""
+"This is example text.\n"
+"If you like this text, it can be your font."
+msgstr ""
+"Đây là chữ mẫu.\n"
+"Nếu bạn thích chữ như thế này thì chọn phông chữ này."
 
 #: lib/option.tcl:11
 #, tcl-format
 msgid "Invalid global encoding '%s'"
-msgstr "Bảng mã toàn cục không hợp lệ '%s'"
+msgstr "Bảng mã toàn cục không hợp lệ “%s”"
 
 #: lib/option.tcl:19
 #, tcl-format
 msgid "Invalid repo encoding '%s'"
-msgstr "Bảng mã kho chứa không hợp lệ '%s'"
+msgstr "Bảng mã kho chứa không hợp lệ “%s”"
 
 #: lib/option.tcl:119
 msgid "Restore Defaults"
@@ -2176,315 +1481,127 @@ msgstr "Đánh dấu những tập tin chưa được theo dõi là cần chuy�
 msgid "Show untracked files"
 msgstr "Hiện các tập tin chưa được theo dõi"
 
-#: lib/option.tcl:209
+#: lib/option.tcl:164
+msgid "Tab spacing"
+msgstr "Khoảng cách tab"
+
+#: lib/option.tcl:210
 msgid "Change"
 msgstr "Thay đổi"
 
-#: lib/option.tcl:253
+#: lib/option.tcl:254
 msgid "Spelling Dictionary:"
 msgstr "Từ điển chính tả:"
 
-#: lib/option.tcl:283
+#: lib/option.tcl:284
 msgid "Change Font"
 msgstr "Đổi phông chữ"
 
-#: lib/option.tcl:287
+#: lib/option.tcl:288
 #, tcl-format
 msgid "Choose %s"
 msgstr "Chọn %s"
 
-#: lib/option.tcl:293
+#: lib/option.tcl:294
 msgid "pt."
 msgstr "pt."
 
-#: lib/option.tcl:307
+#: lib/option.tcl:308
 msgid "Preferences"
 msgstr "Cá nhân hóa"
 
-#: lib/option.tcl:344
+#: lib/option.tcl:345
 msgid "Failed to completely save options:"
 msgstr "Gặp lỗi khi hoàn tất ghi lại các tùy chọn:"
 
-#: lib/remote_add.tcl:20
-msgid "Add Remote"
-msgstr "Thêm máy chủ"
+#: lib/mergetool.tcl:8
+msgid "Force resolution to the base version?"
+msgstr "Buộc phân giải thành nhánh cơ sở?"
 
-#: lib/remote_add.tcl:25
-msgid "Add New Remote"
-msgstr "Thêm máy chủ mới"
+#: lib/mergetool.tcl:9
+msgid "Force resolution to this branch?"
+msgstr "Buộc phân giải thành nhánh này?"
 
-#: lib/remote_add.tcl:30 lib/tools_dlg.tcl:37
-msgid "Add"
-msgstr "Thêm vào"
+#: lib/mergetool.tcl:10
+msgid "Force resolution to the other branch?"
+msgstr "Buộc phân giải thành nhánh khác?"
 
-#: lib/remote_add.tcl:39
-msgid "Remote Details"
-msgstr "Chi tiết về máy chủ"
-
-#: lib/remote_add.tcl:50
-msgid "Location:"
-msgstr "Vị trí:"
-
-#: lib/remote_add.tcl:60
-msgid "Further Action"
-msgstr "Hành động thêm"
-
-#: lib/remote_add.tcl:63
-msgid "Fetch Immediately"
-msgstr "Lấy về ngay lập tức"
-
-#: lib/remote_add.tcl:69
-msgid "Initialize Remote Repository and Push"
-msgstr "Khởi tạo Kho máy chủ và đẩy dữ liệu lên"
-
-#: lib/remote_add.tcl:75
-msgid "Do Nothing Else Now"
-msgstr "Không làm gì cả"
-
-#: lib/remote_add.tcl:100
-msgid "Please supply a remote name."
-msgstr "Hãy cung cấp tên máy chủ."
-
-#: lib/remote_add.tcl:113
-#, tcl-format
-msgid "'%s' is not an acceptable remote name."
-msgstr "'%s' không phải là tên máy chủ được chấp nhận."
-
-#: lib/remote_add.tcl:124
-#, tcl-format
-msgid "Failed to add remote '%s' of location '%s'."
-msgstr "Gặp lỗi khi thêm máy chủ '%s' của vị trí '%s'."
-
-#: lib/remote_add.tcl:132 lib/transport.tcl:6
-#, tcl-format
-msgid "fetch %s"
-msgstr "lấy về %s"
-
-#: lib/remote_add.tcl:133
-#, tcl-format
-msgid "Fetching the %s"
-msgstr "Đang lấy về %s"
-
-#: lib/remote_add.tcl:156
-#, tcl-format
-msgid "Do not know how to initialize repository at location '%s'."
-msgstr "Không hiểu làm thế nào để khởi tạo kho chứa tại vị trí '%s'."
-
-#: lib/remote_add.tcl:162 lib/transport.tcl:54 lib/transport.tcl:92
-#: lib/transport.tcl:110
-#, tcl-format
-msgid "push %s"
-msgstr "đẩy %s lên máy chủ"
-
-#: lib/remote_add.tcl:163
-#, tcl-format
-msgid "Setting up the %s (at %s)"
-msgstr "Cài đặt '%s' (tại %s)"
-
-#: lib/remote_branch_delete.tcl:29 lib/remote_branch_delete.tcl:34
-msgid "Delete Branch Remotely"
-msgstr "Xóa nhánh trên máy chủ"
-
-#: lib/remote_branch_delete.tcl:48
-msgid "From Repository"
-msgstr "Từ Kho"
-
-#: lib/remote_branch_delete.tcl:51 lib/transport.tcl:165
-msgid "Remote:"
-msgstr "Máy chủ:"
-
-#: lib/remote_branch_delete.tcl:72 lib/transport.tcl:187
-msgid "Arbitrary Location:"
-msgstr "Địa điểm tùy ý:"
-
-#: lib/remote_branch_delete.tcl:88
-msgid "Branches"
-msgstr "Nhánh"
-
-#: lib/remote_branch_delete.tcl:110
-msgid "Delete Only If"
-msgstr "Chỉ xoá Nếu"
-
-#: lib/remote_branch_delete.tcl:112
-msgid "Merged Into:"
-msgstr "Đã trộn vào:"
-
-#: lib/remote_branch_delete.tcl:153
-msgid "A branch is required for 'Merged Into'."
-msgstr "Cần một nhánh cho 'Hòa trộn vào'."
-
-#: lib/remote_branch_delete.tcl:185
+#: lib/mergetool.tcl:14
 #, tcl-format
 msgid ""
-"The following branches are not completely merged into %s:\n"
+"Note that the diff shows only conflicting changes.\n"
 "\n"
-" - %s"
-msgstr ""
-"Các nhánh sau đây không được hòa trộn hoàn toàn vào %s:\n"
+"%s will be overwritten.\n"
 "\n"
-" - %s"
-
-#: lib/remote_branch_delete.tcl:190
-#, tcl-format
-msgid ""
-"One or more of the merge tests failed because you have not fetched the "
-"necessary commits.  Try fetching from %s first."
+"This operation can be undone only by restarting the merge."
 msgstr ""
-"Một hay nhiều hơn kiểm tra hòa trộn không đạt bởi vì bạn đã không lấy về "
-"những lần chuyển giao cần thiết. Hãy lấy về từ %s trước đã."
+"Chú ý là diff chỉ hiển thị những thay đổi xung đột.\n"
+"\n"
+"%s sẽ bị ghi đè.\n"
+"\n"
+"Thao tác này chỉ có thể bỏ dở bằng cách khởi động lại việc hòa trộn."
 
-#: lib/remote_branch_delete.tcl:208
-msgid "Please select one or more branches to delete."
-msgstr "Xin hãy chọn một hay nhiều nhánh cần xóa."
-
-#: lib/remote_branch_delete.tcl:227
+#: lib/mergetool.tcl:45
 #, tcl-format
-msgid "Deleting branches from %s"
-msgstr "Đang xoá các nhánh từ %s"
+msgid "File %s seems to have unresolved conflicts, still stage?"
+msgstr ""
+"Tập tin %s có vẻ chưa được giải quyết xung đột, vẫn đánh dấu là cần chuyển "
+"giao?"
 
-#: lib/remote_branch_delete.tcl:300
-msgid "No repository selected."
-msgstr "Chưa chọn kho."
-
-#: lib/remote_branch_delete.tcl:305
+#: lib/mergetool.tcl:60
 #, tcl-format
-msgid "Scanning %s..."
-msgstr "Đang quét: %s..."
+msgid "Adding resolution for %s"
+msgstr "Đang phân giải cho %s"
 
-#: lib/remote.tcl:200
-msgid "Push to"
-msgstr "Đẩy lên"
+#: lib/mergetool.tcl:141
+msgid "Cannot resolve deletion or link conflicts using a tool"
+msgstr "Không thể phân giải xung đột xóa hay liên kết dùng một công cụ"
 
-#: lib/remote.tcl:218
-msgid "Remove Remote"
-msgstr "Gỡ bỏ Máy chủ"
+#: lib/mergetool.tcl:146
+msgid "Conflict file does not exist"
+msgstr "Tập tin xung đột không tồn tại"
 
-#: lib/remote.tcl:223
-msgid "Prune from"
-msgstr "Xén từ"
-
-#: lib/remote.tcl:228
-msgid "Fetch from"
-msgstr "Lấy về từ"
-
-#: lib/search.tcl:48
-msgid "Find:"
-msgstr "Tìm:"
-
-#: lib/search.tcl:50
-msgid "Next"
-msgstr "Tiếp"
-
-#: lib/search.tcl:51
-msgid "Prev"
-msgstr "Trước"
-
-#: lib/search.tcl:52
-msgid "RegExp"
-msgstr "BTCQ"
-
-#: lib/search.tcl:54
-msgid "Case"
-msgstr "Hoa"
-
-#: lib/shortcut.tcl:21 lib/shortcut.tcl:62
-msgid "Cannot write shortcut:"
-msgstr "Không thể ghi lối tắt:"
-
-#: lib/shortcut.tcl:137
-msgid "Cannot write icon:"
-msgstr "Không thể ghi biểu tượng:"
-
-#: lib/spellcheck.tcl:57
-msgid "Unsupported spell checker"
-msgstr "Không hỗ trợ kiểm tra chính tả"
-
-#: lib/spellcheck.tcl:65
-msgid "Spell checking is unavailable"
-msgstr "Kiểm tra chính tả không sẵn sàng"
-
-#: lib/spellcheck.tcl:68
-msgid "Invalid spell checking configuration"
-msgstr "Cấu hình bộ soát chính tả không hợp lệ"
-
-#: lib/spellcheck.tcl:70
+#: lib/mergetool.tcl:246
 #, tcl-format
-msgid "Reverting dictionary to %s."
-msgstr "Đang hoàn nguyên từ điển thành %s."
+msgid "Not a GUI merge tool: '%s'"
+msgstr "Không phải là một công cụ hòa trộn GUI: “%s”"
 
-#: lib/spellcheck.tcl:73
-msgid "Spell checker silently failed on startup"
-msgstr "Phần kiểm tra chính tả đã gặp lỗi khi khởi động"
-
-#: lib/spellcheck.tcl:80
-msgid "Unrecognized spell checker"
-msgstr "Không chấp nhận bộ kiểm tra chính tả"
-
-#: lib/spellcheck.tcl:186
-msgid "No Suggestions"
-msgstr "Không có gợi ý"
-
-#: lib/spellcheck.tcl:388
-msgid "Unexpected EOF from spell checker"
-msgstr "Gặp kết thúc bất ngờ từ bộ kiểm tra chính tả"
-
-#: lib/spellcheck.tcl:392
-msgid "Spell Checker Failed"
-msgstr "Kiểm tra chính tả không thành công"
-
-#: lib/sshkey.tcl:31
-msgid "No keys found."
-msgstr "Không tìm thấy khóa nào."
-
-#: lib/sshkey.tcl:34
+#: lib/mergetool.tcl:275
 #, tcl-format
-msgid "Found a public key in: %s"
-msgstr "Tìm thấy khoá công khai trong: %s"
+msgid "Unsupported merge tool '%s'"
+msgstr "Không hỗ trợ công cụ trộn “%s”"
 
-#: lib/sshkey.tcl:40
-msgid "Generate Key"
-msgstr "Tạo khoá"
+#: lib/mergetool.tcl:310
+msgid "Merge tool is already running, terminate it?"
+msgstr "Công cụ hòa trộn đang chạy rồi, chấm dứt nó?"
 
-#: lib/sshkey.tcl:58
-msgid "Copy To Clipboard"
-msgstr "Chép vào clipboard"
-
-#: lib/sshkey.tcl:72
-msgid "Your OpenSSH Public Key"
-msgstr "Khóa công OpenSSH của bạn"
-
-#: lib/sshkey.tcl:80
-msgid "Generating..."
-msgstr "Đang tạo..."
-
-#: lib/sshkey.tcl:86
+#: lib/mergetool.tcl:330
 #, tcl-format
 msgid ""
-"Could not start ssh-keygen:\n"
+"Error retrieving versions:\n"
+"%s"
+msgstr ""
+"Gặp lỗi khi truy lại phiên bản:\n"
+"%s"
+
+#: lib/mergetool.tcl:350
+#, tcl-format
+msgid ""
+"Could not start the merge tool:\n"
 "\n"
 "%s"
 msgstr ""
-"Không thể chạy ssh-keygen:\n"
+"Không thể khởi chạy công cụ hòa trộn:\n"
 "\n"
 "%s"
 
-#: lib/sshkey.tcl:113
-msgid "Generation failed."
-msgstr "Việc tạo khoá đã thất bại."
+#: lib/mergetool.tcl:354
+msgid "Running merge tool..."
+msgstr "Đang chạy công cụ trộn…"
 
-#: lib/sshkey.tcl:120
-msgid "Generation succeeded, but no keys found."
-msgstr "Việc tạo thành công nhưng lại không tìm thấy khóa."
-
-#: lib/sshkey.tcl:123
-#, tcl-format
-msgid "Your key is in: %s"
-msgstr "Khóa của bạn trong: %s"
-
-#: lib/status_bar.tcl:87
-#, tcl-format
-msgid "%s ... %*i of %*i %s (%3i%%)"
-msgstr "%s ... %*i trong %*i %s (%3i%%)"
+#: lib/mergetool.tcl:382 lib/mergetool.tcl:390
+msgid "Merge tool failed."
+msgstr "Công cụ trộn gặp lỗi."
 
 #: lib/tools_dlg.tcl:22
 msgid "Add Tool"
@@ -2504,7 +1621,7 @@ msgstr "Chi tiết công cụ"
 
 #: lib/tools_dlg.tcl:49
 msgid "Use '/' separators to create a submenu tree:"
-msgstr "Dùng dấu ngăn cách '/' để tạo cây trình đơn con:"
+msgstr "Dùng dấu ngăn cách “/” để tạo cây trình đơn con:"
 
 #: lib/tools_dlg.tcl:60
 msgid "Command:"
@@ -2537,7 +1654,7 @@ msgstr "Hãy cung cấp tên cho công cụ."
 #: lib/tools_dlg.tcl:126
 #, tcl-format
 msgid "Tool '%s' already exists."
-msgstr "Công cụ '%s' đã sẵn có."
+msgstr "Công cụ “%s” đã sẵn có."
 
 #: lib/tools_dlg.tcl:148
 #, tcl-format
@@ -2577,114 +1694,1016 @@ msgstr "Đối số"
 msgid "OK"
 msgstr "Đồng ý"
 
-#: lib/tools.tcl:75
+#: lib/search.tcl:48
+msgid "Find:"
+msgstr "Tìm:"
+
+#: lib/search.tcl:50
+msgid "Next"
+msgstr "Tiếp"
+
+#: lib/search.tcl:51
+msgid "Prev"
+msgstr "Trước"
+
+#: lib/search.tcl:52
+msgid "RegExp"
+msgstr "BTCQ"
+
+#: lib/search.tcl:54
+msgid "Case"
+msgstr "Hoa"
+
+#: lib/shortcut.tcl:21 lib/shortcut.tcl:62
+msgid "Cannot write shortcut:"
+msgstr "Không thể ghi lối tắt:"
+
+#: lib/shortcut.tcl:137
+msgid "Cannot write icon:"
+msgstr "Không thể ghi biểu tượng:"
+
+#: lib/branch_rename.tcl:15 lib/branch_rename.tcl:23
+msgid "Rename Branch"
+msgstr "Đổi tên nhánh"
+
+#: lib/branch_rename.tcl:28
+msgid "Rename"
+msgstr "Đổi tên"
+
+#: lib/branch_rename.tcl:38
+msgid "Branch:"
+msgstr "Nhánh:"
+
+#: lib/branch_rename.tcl:46
+msgid "New Name:"
+msgstr "Tên mới:"
+
+#: lib/branch_rename.tcl:81
+msgid "Please select a branch to rename."
+msgstr "Hãy chọn nhánh cần đổi tên."
+
+#: lib/branch_rename.tcl:92 lib/branch_create.tcl:154
+msgid "Please supply a branch name."
+msgstr "Hãy cung cấp tên nhánh."
+
+#: lib/branch_rename.tcl:112 lib/branch_create.tcl:165
 #, tcl-format
-msgid "Running %s requires a selected file."
-msgstr "Chạy %s yêu cầu cần phải chọn một tập tin."
+msgid "'%s' is not an acceptable branch name."
+msgstr "“%s” không phải là một tên nhánh được chấp nhận."
 
-#: lib/tools.tcl:91
+#: lib/branch_rename.tcl:123
 #, tcl-format
-msgid "Are you sure you want to run %1$s on file \"%2$s\"?"
-msgstr "Bạn có chắc là muốn chạy %1$s trên tập tin \"%2$s\" không?"
+msgid "Failed to rename '%s'."
+msgstr "Gặp lỗi khi đổi tên “%s”."
 
-#: lib/tools.tcl:95
+#: lib/remote_branch_delete.tcl:29 lib/remote_branch_delete.tcl:34
+msgid "Delete Branch Remotely"
+msgstr "Xóa nhánh trên máy chủ"
+
+#: lib/remote_branch_delete.tcl:48
+msgid "From Repository"
+msgstr "Từ Kho"
+
+#: lib/remote_branch_delete.tcl:88
+msgid "Branches"
+msgstr "Nhánh"
+
+#: lib/remote_branch_delete.tcl:110
+msgid "Delete Only If"
+msgstr "Chỉ xóa Nếu"
+
+#: lib/remote_branch_delete.tcl:112
+msgid "Merged Into:"
+msgstr "Đã trộn vào:"
+
+#: lib/remote_branch_delete.tcl:120 lib/branch_delete.tcl:53
+msgid "Always (Do not perform merge checks)"
+msgstr "Luôn (Không thực hiện kiểm tra hòa trộn)"
+
+#: lib/remote_branch_delete.tcl:153
+msgid "A branch is required for 'Merged Into'."
+msgstr "Cần một nhánh cho “Hòa trộn vào”."
+
+#: lib/remote_branch_delete.tcl:185
 #, tcl-format
-msgid "Are you sure you want to run %s?"
-msgstr "Bạn có chắc là muốn chạy %s không?"
+msgid ""
+"The following branches are not completely merged into %s:\n"
+"\n"
+" - %s"
+msgstr ""
+"Các nhánh sau đây không được hòa trộn hoàn toàn vào %s:\n"
+"\n"
+" - %s"
 
-#: lib/tools.tcl:116
+#: lib/remote_branch_delete.tcl:190
 #, tcl-format
-msgid "Tool: %s"
-msgstr "Công cụ: %s"
+msgid ""
+"One or more of the merge tests failed because you have not fetched the "
+"necessary commits.  Try fetching from %s first."
+msgstr ""
+"Một hay nhiều hơn kiểm tra hòa trộn không đạt bởi vì bạn đã không lấy về "
+"những lần chuyển giao cần thiết. Hãy lấy về từ %s trước đã."
 
-#: lib/tools.tcl:117
+#: lib/remote_branch_delete.tcl:208
+msgid "Please select one or more branches to delete."
+msgstr "Xin hãy chọn một hay nhiều nhánh cần xóa."
+
+#: lib/remote_branch_delete.tcl:218 lib/branch_delete.tcl:115
+msgid ""
+"Recovering deleted branches is difficult.\n"
+"\n"
+"Delete the selected branches?"
+msgstr ""
+"Khôi phục các nhánh đã bị xóa là việc khó khăn.\n"
+"\n"
+"Xóa nhánh đã chọn chứ?"
+
+#: lib/remote_branch_delete.tcl:227
 #, tcl-format
-msgid "Running: %s"
-msgstr "Đang chạy: %s"
+msgid "Deleting branches from %s"
+msgstr "Đang xóa các nhánh từ %s"
 
-#: lib/tools.tcl:155
+#: lib/remote_branch_delete.tcl:300
+msgid "No repository selected."
+msgstr "Chưa chọn kho."
+
+#: lib/remote_branch_delete.tcl:305
 #, tcl-format
-msgid "Tool completed successfully: %s"
-msgstr "Công cụ được biên dịch thành công: %s"
+msgid "Scanning %s..."
+msgstr "Đang quét: %s…"
 
-#: lib/tools.tcl:157
+#: lib/choose_repository.tcl:33
+msgid "Git Gui"
+msgstr "Git Gui"
+
+#: lib/choose_repository.tcl:92 lib/choose_repository.tcl:412
+msgid "Create New Repository"
+msgstr "Tạo kho mới"
+
+#: lib/choose_repository.tcl:98
+msgid "New..."
+msgstr "Mới…"
+
+#: lib/choose_repository.tcl:105 lib/choose_repository.tcl:496
+msgid "Clone Existing Repository"
+msgstr "Nhân bản một kho sẵn có"
+
+#: lib/choose_repository.tcl:116
+msgid "Clone..."
+msgstr "Nhân bản…"
+
+#: lib/choose_repository.tcl:123 lib/choose_repository.tcl:1064
+msgid "Open Existing Repository"
+msgstr "Mở một kho đã có."
+
+#: lib/choose_repository.tcl:129
+msgid "Open..."
+msgstr "Mở…"
+
+#: lib/choose_repository.tcl:142
+msgid "Recent Repositories"
+msgstr "Các kho mới dùng"
+
+#: lib/choose_repository.tcl:148
+msgid "Open Recent Repository:"
+msgstr "Mở kho mới dùng:"
+
+#: lib/choose_repository.tcl:316 lib/choose_repository.tcl:323
+#: lib/choose_repository.tcl:330
 #, tcl-format
-msgid "Tool failed: %s"
-msgstr "Công cụ gặp lỗi: %s"
+msgid "Failed to create repository %s:"
+msgstr "Gặp lỗi khi tạo kho %s:"
 
-#: lib/transport.tcl:7
+#: lib/choose_repository.tcl:407 lib/branch_create.tcl:33
+msgid "Create"
+msgstr "Tạo"
+
+#: lib/choose_repository.tcl:417
+msgid "Directory:"
+msgstr "Thư mục:"
+
+#: lib/choose_repository.tcl:447 lib/choose_repository.tcl:573
+#: lib/choose_repository.tcl:1098
+msgid "Git Repository"
+msgstr "Kho Git"
+
+#: lib/choose_repository.tcl:472
 #, tcl-format
-msgid "Fetching new changes from %s"
-msgstr "Lấy các thay đổi mới từ %s"
+msgid "Directory %s already exists."
+msgstr "Thư mục %s đã sẵn có."
 
-#: lib/transport.tcl:18
+#: lib/choose_repository.tcl:476
 #, tcl-format
-msgid "remote prune %s"
-msgstr "xén bớt trên máy chủ %s"
+msgid "File %s already exists."
+msgstr "Tập tin %s đã có sẵn."
 
-#: lib/transport.tcl:19
+#: lib/choose_repository.tcl:491
+msgid "Clone"
+msgstr "Nhân bản"
+
+#: lib/choose_repository.tcl:504
+msgid "Source Location:"
+msgstr "Vị trí nguồn:"
+
+#: lib/choose_repository.tcl:513
+msgid "Target Directory:"
+msgstr "Thư mục đích:"
+
+#: lib/choose_repository.tcl:523
+msgid "Clone Type:"
+msgstr "Kiểu nhân bản:"
+
+#: lib/choose_repository.tcl:528
+msgid "Standard (Fast, Semi-Redundant, Hardlinks)"
+msgstr "Tiêu chuẩn (Nhanh, Semi-Redundant, Hardlinks)"
+
+#: lib/choose_repository.tcl:533
+msgid "Full Copy (Slower, Redundant Backup)"
+msgstr "Sao chép toàn bộ (Chậm hơn, Redundant Backup)"
+
+#: lib/choose_repository.tcl:538
+msgid "Shared (Fastest, Not Recommended, No Backup)"
+msgstr "Chia sẻ (Nhanh nhất, Không nên dùng, No Backup)"
+
+#: lib/choose_repository.tcl:545
+msgid "Recursively clone submodules too"
+msgstr "Cũng nhân bản mô-đun con một cách đệ quy"
+
+#: lib/choose_repository.tcl:579 lib/choose_repository.tcl:626
+#: lib/choose_repository.tcl:772 lib/choose_repository.tcl:842
+#: lib/choose_repository.tcl:1104 lib/choose_repository.tcl:1112
 #, tcl-format
-msgid "Pruning tracking branches deleted from %s"
-msgstr "Xén bớt các nhánh theo dõi bị xóa từ %s"
+msgid "Not a Git repository: %s"
+msgstr "Không phải là kho git: %s"
 
-#: lib/transport.tcl:25
-msgid "fetch all remotes"
-msgstr "lấy về từ tất cả các máy chủ"
+#: lib/choose_repository.tcl:615
+msgid "Standard only available for local repository."
+msgstr "Tiêu chuẩn chỉ sẵn sàng với kho nội bộ."
 
-#: lib/transport.tcl:26
-msgid "Fetching new changes from all remotes"
-msgstr "Đang lấy các thay đổi mới từ mọi máy chủ"
+#: lib/choose_repository.tcl:619
+msgid "Shared only available for local repository."
+msgstr "“Chia sẻ” chỉ sẵn sàng với kho nội bộ."
 
-#: lib/transport.tcl:40
-msgid "remote prune all remotes"
-msgstr "xén bớt mọi máy chủ"
-
-#: lib/transport.tcl:41
-msgid "Pruning tracking branches deleted from all remotes"
-msgstr "Xén tỉa các nhánh đã theo dõi bị xóa từ mọi máy chủ"
-
-#: lib/transport.tcl:55
+#: lib/choose_repository.tcl:640
 #, tcl-format
-msgid "Pushing changes to %s"
-msgstr "Đang đẩy các nhánh lên %s"
+msgid "Location %s already exists."
+msgstr "Miền địa phương %s đã sẵn có."
 
-#: lib/transport.tcl:93
+#: lib/choose_repository.tcl:651
+msgid "Failed to configure origin"
+msgstr "Gặp lỗi khi cấu hình bản gốc"
+
+#: lib/choose_repository.tcl:663
+msgid "Counting objects"
+msgstr "Đang đếm số đối tượng"
+
+#: lib/choose_repository.tcl:664
+msgid "buckets"
+msgstr "xô"
+
+#: lib/choose_repository.tcl:688
 #, tcl-format
-msgid "Mirroring to %s"
-msgstr "Bản sao đến %s"
+msgid "Unable to copy objects/info/alternates: %s"
+msgstr "Không thể sao chép objects/info/alternates: %s"
 
-#: lib/transport.tcl:111
+#: lib/choose_repository.tcl:724
 #, tcl-format
-msgid "Pushing %s %s to %s"
-msgstr "Đang (đẩy) %s %s lên %s"
+msgid "Nothing to clone from %s."
+msgstr "Không có gì để nhân bản từ %s"
 
-#: lib/transport.tcl:132
-msgid "Push Branches"
-msgstr "Đẩy lên các nhánh"
+#: lib/choose_repository.tcl:726 lib/choose_repository.tcl:940
+#: lib/choose_repository.tcl:952
+msgid "The 'master' branch has not been initialized."
+msgstr "Nhánh “master” chưa được khởi tạo."
 
-#: lib/transport.tcl:147
-msgid "Source Branches"
-msgstr "Nhánh nguồn"
+#: lib/choose_repository.tcl:739
+msgid "Hardlinks are unavailable.  Falling back to copying."
+msgstr "Liên kết cứng không sẵn sàng. Trở lại chế độ sao chép."
 
-#: lib/transport.tcl:162
-msgid "Destination Repository"
-msgstr "Kho chứa đích"
+#: lib/choose_repository.tcl:751
+#, tcl-format
+msgid "Cloning from %s"
+msgstr "Đang nhân bản từ %s"
 
-#: lib/transport.tcl:205
-msgid "Transfer Options"
-msgstr "Tùy chọn truyền"
+#: lib/choose_repository.tcl:782
+msgid "Copying objects"
+msgstr "Đang chép các đối tượng"
 
-#: lib/transport.tcl:207
-msgid "Force overwrite existing branch (may discard changes)"
-msgstr "Ép buộc ghi đè nhánh sẵn có (có thể sẽ loại bỏ các thay đổi)"
+#: lib/choose_repository.tcl:783
+msgid "KiB"
+msgstr "KiB"
 
-#: lib/transport.tcl:211
-msgid "Use thin pack (for slow network connections)"
-msgstr "Dùng gói mỏng (dành cho kết nối mạng chậm)"
+#: lib/choose_repository.tcl:807
+#, tcl-format
+msgid "Unable to copy object: %s"
+msgstr "Không thể chép đối tượng: %s"
 
-#: lib/transport.tcl:215
-msgid "Include tags"
-msgstr "Bao gồm các thẻ"
+#: lib/choose_repository.tcl:817
+msgid "Linking objects"
+msgstr "Đang liên kết các đối tượng"
+
+#: lib/choose_repository.tcl:818
+msgid "objects"
+msgstr "đối tượng"
+
+#: lib/choose_repository.tcl:826
+#, tcl-format
+msgid "Unable to hardlink object: %s"
+msgstr "Không thể tạo liên kết cứng đối tượng: %s"
+
+#: lib/choose_repository.tcl:881
+msgid "Cannot fetch branches and objects.  See console output for details."
+msgstr ""
+"Không thể lấy các nhánh và đối tượng. Xem kết xuất từ bảng điều khiển để có "
+"thêm thông tin."
+
+#: lib/choose_repository.tcl:892
+msgid "Cannot fetch tags.  See console output for details."
+msgstr ""
+"Không thể lấy về các thẻ. Hãy xem kết xuất từ bảng điều khiển để có thêm "
+"thông tin chi tiết."
+
+#: lib/choose_repository.tcl:916
+msgid "Cannot determine HEAD.  See console output for details."
+msgstr ""
+"Không thể dò tìm HEAD. Hãy xem kết xuất từ bảng điều khiển để có thêm thông "
+"tin chi tiết."
+
+#: lib/choose_repository.tcl:925
+#, tcl-format
+msgid "Unable to cleanup %s"
+msgstr "Không thể dọn sạch %s"
+
+#: lib/choose_repository.tcl:931
+msgid "Clone failed."
+msgstr "Gặp lỗi khi nhân bản."
+
+#: lib/choose_repository.tcl:938
+msgid "No default branch obtained."
+msgstr "Không tìm thấy nhánh mặc định."
+
+#: lib/choose_repository.tcl:949
+#, tcl-format
+msgid "Cannot resolve %s as a commit."
+msgstr "Không thể phân giải %s như là một lần chuyển giao."
+
+#: lib/choose_repository.tcl:961
+msgid "Creating working directory"
+msgstr "Đang tạo thư mục làm việc"
+
+#: lib/choose_repository.tcl:962 lib/index.tcl:70 lib/index.tcl:136
+#: lib/index.tcl:207
+msgid "files"
+msgstr "tập tin"
+
+#: lib/choose_repository.tcl:981
+msgid "Cannot clone submodules."
+msgstr "Không thể nhân bản mô-đun-con"
+
+#: lib/choose_repository.tcl:990
+msgid "Cloning submodules"
+msgstr "Đang nhân bản các mô-đun-con"
+
+#: lib/choose_repository.tcl:1015
+msgid "Initial file checkout failed."
+msgstr "Lấy ra tập tin khởi tạo gặp lỗi."
+
+#: lib/choose_repository.tcl:1059
+msgid "Open"
+msgstr "Mở"
+
+#: lib/choose_repository.tcl:1069
+msgid "Repository:"
+msgstr "Kho:"
+
+#: lib/choose_repository.tcl:1118
+#, tcl-format
+msgid "Failed to open repository %s:"
+msgstr "Gặp lỗi khi mở kho %s:"
+
+#: lib/about.tcl:26
+msgid "git-gui - a graphical user interface for Git."
+msgstr "git-gui - công cụ đồ họa dành cho Git."
+
+#: lib/blame.tcl:73
+msgid "File Viewer"
+msgstr "Bộ Xem Tập Tin"
+
+#: lib/blame.tcl:79
+msgid "Commit:"
+msgstr "Lần chuyển giao:"
+
+#: lib/blame.tcl:280
+msgid "Copy Commit"
+msgstr "Chép lần chuyển giao"
+
+#: lib/blame.tcl:284
+msgid "Find Text..."
+msgstr "Tìm chữ…"
+
+#: lib/blame.tcl:288
+msgid "Goto Line..."
+msgstr "Nhảy đến dòng…"
+
+#: lib/blame.tcl:297
+msgid "Do Full Copy Detection"
+msgstr "Thực hiện dò tìm chép toàn bộ"
+
+#: lib/blame.tcl:301
+msgid "Show History Context"
+msgstr "Hiển thị nội dung của lịch sử"
+
+#: lib/blame.tcl:304
+msgid "Blame Parent Commit"
+msgstr "Xem công trạng của lần chuyển giao cha mẹ"
+
+#: lib/blame.tcl:466
+#, tcl-format
+msgid "Reading %s..."
+msgstr "Đang đọc %s…"
+
+#: lib/blame.tcl:594
+msgid "Loading copy/move tracking annotations..."
+msgstr "Đang tải phần chú giải theo dõi chép/chuyển…"
+
+#: lib/blame.tcl:614
+msgid "lines annotated"
+msgstr "dòng chú giải"
+
+#: lib/blame.tcl:806
+msgid "Loading original location annotations..."
+msgstr "Đang tải các chú giải vị trí nguyên gốc…"
+
+#: lib/blame.tcl:809
+msgid "Annotation complete."
+msgstr "Chú giải hoàn tất."
+
+#: lib/blame.tcl:839
+msgid "Busy"
+msgstr "Bận"
+
+#: lib/blame.tcl:840
+msgid "Annotation process is already running."
+msgstr "Tiến trình chú giải đang diễn ra."
+
+#: lib/blame.tcl:879
+msgid "Running thorough copy detection..."
+msgstr "Đang chạy dò tìm sao chép toàn diện…"
+
+#: lib/blame.tcl:947
+msgid "Loading annotation..."
+msgstr "Đang tải phần chú giải…"
+
+#: lib/blame.tcl:1000
+msgid "Author:"
+msgstr "Tác giả:"
+
+#: lib/blame.tcl:1004
+msgid "Committer:"
+msgstr "Người chuyển giao:"
+
+#: lib/blame.tcl:1009
+msgid "Original File:"
+msgstr "Tập tin gốc:"
+
+#: lib/blame.tcl:1057
+msgid "Cannot find HEAD commit:"
+msgstr "Không thể tìm thấy HEAD của lần chuyển giao:"
+
+#: lib/blame.tcl:1112
+msgid "Cannot find parent commit:"
+msgstr "Không thể tìm thấy lần chuyển giao mẹ:"
+
+#: lib/blame.tcl:1127
+msgid "Unable to display parent"
+msgstr "Không thể hiển thị cha mẹ"
+
+#: lib/blame.tcl:1269
+msgid "Originally By:"
+msgstr "Nguyên gốc bởi:"
+
+#: lib/blame.tcl:1275
+msgid "In File:"
+msgstr "Trong tập tin:"
+
+#: lib/blame.tcl:1280
+msgid "Copied Or Moved Here By:"
+msgstr "Đã chép hoặc Di chuyển đến đây bởi:"
+
+#: lib/sshkey.tcl:31
+msgid "No keys found."
+msgstr "Không tìm thấy khóa nào."
+
+#: lib/sshkey.tcl:34
+#, tcl-format
+msgid "Found a public key in: %s"
+msgstr "Tìm thấy khóa công khai trong: %s"
+
+#: lib/sshkey.tcl:40
+msgid "Generate Key"
+msgstr "Tạo khóa"
+
+#: lib/sshkey.tcl:58
+msgid "Copy To Clipboard"
+msgstr "Chép vào clipboard"
+
+#: lib/sshkey.tcl:72
+msgid "Your OpenSSH Public Key"
+msgstr "Khóa công OpenSSH của bạn"
+
+#: lib/sshkey.tcl:80
+msgid "Generating..."
+msgstr "Đang tạo…"
+
+#: lib/sshkey.tcl:86
+#, tcl-format
+msgid ""
+"Could not start ssh-keygen:\n"
+"\n"
+"%s"
+msgstr ""
+"Không thể chạy ssh-keygen:\n"
+"\n"
+"%s"
+
+#: lib/sshkey.tcl:113
+msgid "Generation failed."
+msgstr "Việc tạo khóa đã thất bại."
+
+#: lib/sshkey.tcl:120
+msgid "Generation succeeded, but no keys found."
+msgstr "Việc tạo thành công nhưng lại không tìm thấy khóa."
+
+#: lib/sshkey.tcl:123
+#, tcl-format
+msgid "Your key is in: %s"
+msgstr "Khóa của bạn trong: %s"
+
+#: lib/branch_create.tcl:23
+msgid "Create Branch"
+msgstr "Tạo nhánh"
+
+#: lib/branch_create.tcl:28
+msgid "Create New Branch"
+msgstr "Tạo nhánh mới"
+
+#: lib/branch_create.tcl:42
+msgid "Branch Name"
+msgstr "Tên nhánh"
+
+#: lib/branch_create.tcl:57
+msgid "Match Tracking Branch Name"
+msgstr "Khớp với tên nhánh được theo dõi"
+
+#: lib/branch_create.tcl:66
+msgid "Starting Revision"
+msgstr "Điểm đầu"
+
+#: lib/branch_create.tcl:72
+msgid "Update Existing Branch:"
+msgstr "Cập nhật nhánh sẵn có:"
+
+#: lib/branch_create.tcl:75
+msgid "No"
+msgstr "Không"
+
+#: lib/branch_create.tcl:80
+msgid "Fast Forward Only"
+msgstr "Chỉ chuyển-tiếp-nhanh"
+
+#: lib/branch_create.tcl:97
+msgid "Checkout After Creation"
+msgstr "Lấy ra sau khi tạo"
+
+#: lib/branch_create.tcl:132
+msgid "Please select a tracking branch."
+msgstr "Vui lòng chọn nhánh theo dõi."
+
+#: lib/branch_create.tcl:141
+#, tcl-format
+msgid "Tracking branch %s is not a branch in the remote repository."
+msgstr "Nhánh theo dõi %s không phải là một nhánh trên kho chứa máy chủ."
+
+#: lib/commit.tcl:9
+msgid ""
+"There is nothing to amend.\n"
+"\n"
+"You are about to create the initial commit.  There is no commit before this "
+"to amend.\n"
+msgstr ""
+"Ở đây chẳng có gì để tu bổ cả.\n"
+"\n"
+"Bạn đang tạo lần chuyển giao khởi tạo. Ở đây không có lần chuyển giao trước "
+"nào để mà tu bổ.\n"
+
+#: lib/commit.tcl:18
+msgid ""
+"Cannot amend while merging.\n"
+"\n"
+"You are currently in the middle of a merge that has not been fully "
+"completed.  You cannot amend the prior commit unless you first abort the "
+"current merge activity.\n"
+msgstr ""
+"Không thể tu bổ trong khi hòa trộn.\n"
+"\n"
+"Bạn hiện đang ở giữa quá trình hòa trôn, mà nó chưa hoàn tất. Bạn không thể "
+"tu bổ  lần chuyển giao tiền nhiệm trừ phi bạn bãi bỏ lần hòa trộn hiện đang "
+"kích hoạt.\n"
+
+#: lib/commit.tcl:48
+msgid "Error loading commit data for amend:"
+msgstr "Gặp lỗi khi tải dữ liệu chuyển giao cho lệnh tu bổ:"
+
+#: lib/commit.tcl:75
+msgid "Unable to obtain your identity:"
+msgstr "Không thể lấy được định danh của bạn:"
+
+#: lib/commit.tcl:80
+msgid "Invalid GIT_COMMITTER_IDENT:"
+msgstr "GIT_COMMITTER_IDENT không hợp lệ:"
+
+#: lib/commit.tcl:129
+#, tcl-format
+msgid "warning: Tcl does not support encoding '%s'."
+msgstr "cảnh báo: Tcl không hỗ trợ bảng mã “%s”."
+
+#: lib/commit.tcl:149
+msgid ""
+"Last scanned state does not match repository state.\n"
+"\n"
+"Another Git program has modified this repository since the last scan.  A "
+"rescan must be performed before another commit can be created.\n"
+"\n"
+"The rescan will be automatically started now.\n"
+msgstr ""
+"Trạng thái quét không khớp với trạng thái kho.\n"
+"\n"
+"Có Git khác đã sửa kho này kể từ lần quét cuối. Cần quét lại trước khi thực "
+"hiện việc chuyển giao khác.\n"
+"\n"
+"Sẽ thực hiện việc quét lại ngay bây giời.\n"
+
+#: lib/commit.tcl:173
+#, tcl-format
+msgid ""
+"Unmerged files cannot be committed.\n"
+"\n"
+"File %s has merge conflicts.  You must resolve them and stage the file "
+"before committing.\n"
+msgstr ""
+"Các tập tin chưa hòa trộn không thể được chuyển giao.\n"
+"\n"
+"Tập tin %s có xung đột hòa trộn. Bạn phải giải quyết chúng và đưa lên bệ "
+"phóng trước khi chuyển giao.\n"
+
+#: lib/commit.tcl:181
+#, tcl-format
+msgid ""
+"Unknown file state %s detected.\n"
+"\n"
+"File %s cannot be committed by this program.\n"
+msgstr ""
+"Tìm thấy trạng thái tập tim không hiểu %s.\n"
+"\n"
+"Tập tin %s không thể được chuyển giao bởi chương trình này.\n"
+
+#: lib/commit.tcl:189
+msgid ""
+"No changes to commit.\n"
+"\n"
+"You must stage at least 1 file before you can commit.\n"
+msgstr ""
+"Không có thay đổi nào cần chuyển giao.\n"
+"\n"
+"Bạn phải đưa lên bệ phóng ít nhất là một tập tin trước khi có thể chuyển "
+"giao.\n"
+
+#: lib/commit.tcl:204
+msgid ""
+"Please supply a commit message.\n"
+"\n"
+"A good commit message has the following format:\n"
+"\n"
+"- First line: Describe in one sentence what you did.\n"
+"- Second line: Blank\n"
+"- Remaining lines: Describe why this change is good.\n"
+msgstr ""
+"Hãy viết lời chú giải cho lần chuyển giao.\n"
+"\n"
+"Lời chú giải tốt nhất nên có định dạng sau:\n"
+"\n"
+"- Dòng đầu tiên: Mô tả những gì bạn đã làm.\n"
+"- Dòng thứ hai: Để trống\n"
+"- Những dòng còn lại: Mô tả xem vì sao những thay đổi này là cần thiết.\n"
+
+#: lib/commit.tcl:235
+msgid "Calling pre-commit hook..."
+msgstr "Đang gọi móc (hook) pre-commit…"
+
+#: lib/commit.tcl:250
+msgid "Commit declined by pre-commit hook."
+msgstr "Lần chuyển giao bị khước từ do móc pre-commit."
+
+#: lib/commit.tcl:269
+msgid ""
+"You are about to commit on a detached head. This is a potentially dangerous "
+"thing to do because if you switch to another branch you will lose your "
+"changes and it can be difficult to retrieve them later from the reflog. You "
+"should probably cancel this commit and create a new branch to continue.\n"
+" \n"
+" Do you really want to proceed with your Commit?"
+msgstr ""
+"Bạn thực hiện chuyển giao ở chỗ đã tách rời khỏi các đầu. Điều này là nguy "
+"hiểm bởi nếu bạn chuyển sang nhánh khác thì bạn sẽ mất những thay đổi này và "
+"việc lấy lại chúng từ reflog cũng khó khăn. Bạn gần như chắc chắn là nên hủy "
+"bỏ lần chuyển giao này và tạo một nhánh mới trước khi tiếp tục.\n"
+" \n"
+" Bạn có thực sự muốn tiếp tục chuyển giao?"
+
+#: lib/commit.tcl:290
+msgid "Calling commit-msg hook..."
+msgstr "Đang gọi móc commit-msg…"
+
+#: lib/commit.tcl:305
+msgid "Commit declined by commit-msg hook."
+msgstr "Lần chuyển giao bị khước từ do móc commit-msg."
+
+#: lib/commit.tcl:318
+msgid "Committing changes..."
+msgstr "Chuyển giao các thay đổi…"
+
+#: lib/commit.tcl:334
+msgid "write-tree failed:"
+msgstr "gặp lỗi khi write-tree:"
+
+#: lib/commit.tcl:335 lib/commit.tcl:379 lib/commit.tcl:400
+msgid "Commit failed."
+msgstr "Gặp lỗi khi chuyển giao."
+
+#: lib/commit.tcl:352
+#, tcl-format
+msgid "Commit %s appears to be corrupt"
+msgstr "Lần chuyển giao %s có vẻ đã hư hỏng"
+
+#: lib/commit.tcl:357
+msgid ""
+"No changes to commit.\n"
+"\n"
+"No files were modified by this commit and it was not a merge commit.\n"
+"\n"
+"A rescan will be automatically started now.\n"
+msgstr ""
+"Không có thay đổi nào để chuyển giao.\n"
+"\n"
+"Không có tập tin nào được sửa bởi lần chuyển giao này và nó không phải là "
+"lần chuyển giao hòa trộn.\n"
+"\n"
+"Sẽ thực hiện việc quét lại ngay bây giờ.\n"
+
+#: lib/commit.tcl:364
+msgid "No changes to commit."
+msgstr "Không có thay đổi nào để chuyển giao."
+
+#: lib/commit.tcl:378
+msgid "commit-tree failed:"
+msgstr "commit-tree gặp lỗi:"
+
+#: lib/commit.tcl:399
+msgid "update-ref failed:"
+msgstr "cập nhật tham chiếu thất bại:"
+
+#: lib/commit.tcl:492
+#, tcl-format
+msgid "Created commit %s: %s"
+msgstr "Lần chuyển giao đã tạo %s: %s"
+
+#: lib/branch_delete.tcl:16
+msgid "Delete Branch"
+msgstr "Xóa nhánh"
+
+#: lib/branch_delete.tcl:21
+msgid "Delete Local Branch"
+msgstr "Xóa nhánh nội bộ"
+
+#: lib/branch_delete.tcl:39
+msgid "Local Branches"
+msgstr "Nhánh nội bộ"
+
+#: lib/branch_delete.tcl:51
+msgid "Delete Only If Merged Into"
+msgstr "Chỉ xóa nếu đã hòa trộn vào"
+
+#: lib/branch_delete.tcl:103
+#, tcl-format
+msgid "The following branches are not completely merged into %s:"
+msgstr "Các nhánh sau đây không được hòa trộn hoàn toàn vào %s:"
+
+#: lib/branch_delete.tcl:141
+#, tcl-format
+msgid ""
+"Failed to delete branches:\n"
+"%s"
+msgstr ""
+"Gặp lỗi khi xóa các nhánh:\n"
+"%s"
+
+#: lib/index.tcl:6
+msgid "Unable to unlock the index."
+msgstr "Không thể bỏ khóa bảng mục lục"
+
+#: lib/index.tcl:17
+msgid "Index Error"
+msgstr "Lỗi mục lục"
+
+#: lib/index.tcl:19
+msgid ""
+"Updating the Git index failed.  A rescan will be automatically started to "
+"resynchronize git-gui."
+msgstr ""
+"Cập nhật mục lục cho Git gặp lỗi. Việc quét lại sẽ tự động được khởi chạy để "
+"tái đồng bộ hóa lại với git-gui."
+
+#: lib/index.tcl:30
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: lib/index.tcl:33
+msgid "Unlock Index"
+msgstr "Bỏ khóa mục lục"
+
+#: lib/index.tcl:298
+#, tcl-format
+msgid "Unstaging %s from commit"
+msgstr "Bỏ %s ra khỏi việc chuyển giao"
+
+#: lib/index.tcl:337
+msgid "Ready to commit."
+msgstr "Đã chuyển giao rồi."
+
+#: lib/index.tcl:350
+#, tcl-format
+msgid "Adding %s"
+msgstr "Đang thêm %s"
+
+#: lib/index.tcl:380
+#, tcl-format
+msgid "Stage %d untracked files?"
+msgstr "Đưa %d tập tin chưa theo dõi lên bệ phóng để chuyển giao?"
+
+#: lib/index.tcl:428
+#, tcl-format
+msgid "Revert changes in file %s?"
+msgstr "Hoàn nguyên các thay đổi trong tập tin %s?"
+
+#: lib/index.tcl:430
+#, tcl-format
+msgid "Revert changes in these %i files?"
+msgstr "Hoàn nguyên các thay đổi trong %i tập tin?"
+
+#: lib/index.tcl:438
+msgid "Any unstaged changes will be permanently lost by the revert."
+msgstr ""
+"Mọi thay đổi chưa được đưa lên bệ phóng sẽ mất vĩnh viễn do lệnh revert."
+
+#: lib/index.tcl:441
+msgid "Do Nothing"
+msgstr "Không làm gì"
+
+#: lib/index.tcl:459
+msgid "Reverting selected files"
+msgstr "Đang hoàn nguyên các tập tin đã chọn"
+
+#: lib/index.tcl:463
+#, tcl-format
+msgid "Reverting %s"
+msgstr "Đang hoàn nguyên %s"
+
+#: lib/encoding.tcl:443
+msgid "Default"
+msgstr "Mặc định"
+
+#: lib/encoding.tcl:448
+#, tcl-format
+msgid "System (%s)"
+msgstr "Hệ thống (%s)"
+
+#: lib/encoding.tcl:459 lib/encoding.tcl:465
+msgid "Other"
+msgstr "Khác"
+
+#: lib/date.tcl:25
+#, tcl-format
+msgid "Invalid date from Git: %s"
+msgstr "Ngày tháng không hợp lệ từ Git: %s"
+
+#: lib/choose_rev.tcl:52
+msgid "This Detached Checkout"
+msgstr "Đây là việc lấy ra bị tách rời"
+
+#: lib/choose_rev.tcl:60
+msgid "Revision Expression:"
+msgstr "Biểu thức điểm xét:"
+
+#: lib/choose_rev.tcl:72
+msgid "Local Branch"
+msgstr "Nhánh nội bộ"
+
+#: lib/choose_rev.tcl:77
+msgid "Tracking Branch"
+msgstr "Nhánh Theo dõi"
+
+#: lib/choose_rev.tcl:82 lib/choose_rev.tcl:544
+msgid "Tag"
+msgstr "Thẻ"
+
+#: lib/choose_rev.tcl:321
+#, tcl-format
+msgid "Invalid revision: %s"
+msgstr "Điểm xét duyệt không hợp lệ: %s"
+
+#: lib/choose_rev.tcl:342
+msgid "No revision selected."
+msgstr "Chưa chọn điểm xét duyệt."
+
+#: lib/choose_rev.tcl:350
+msgid "Revision expression is empty."
+msgstr "Biểu thức chính quy rỗng."
+
+#: lib/choose_rev.tcl:537
+msgid "Updated"
+msgstr "Đã cập nhật"
+
+#: lib/choose_rev.tcl:565
+msgid "URL"
+msgstr "URL"
+
+#: lib/database.tcl:42
+msgid "Number of loose objects"
+msgstr "Số lượng đối tượng bị mất"
+
+#: lib/database.tcl:43
+msgid "Disk space used by loose objects"
+msgstr "Dung lượng đĩa được dùng bởi các đối tượng bị mất"
+
+#: lib/database.tcl:44
+msgid "Number of packed objects"
+msgstr "Số lượng đối tượng được đóng gói"
+
+#: lib/database.tcl:45
+msgid "Number of packs"
+msgstr "Số lượng gói"
+
+#: lib/database.tcl:46
+msgid "Disk space used by packed objects"
+msgstr "Dung lượng đĩa được dùng bởi các đối tượng gói"
+
+#: lib/database.tcl:47
+msgid "Packed objects waiting for pruning"
+msgstr "Các đối tượng gói chờ xén bớt"
+
+#: lib/database.tcl:48
+msgid "Garbage files"
+msgstr "Các tập tin rác"
+
+#: lib/database.tcl:72
+msgid "Compressing the object database"
+msgstr "Nén cơ sở dữ liệu đối tượng"
+
+#: lib/database.tcl:83
+msgid "Verifying the object database with fsck-objects"
+msgstr "Đang kiểm tra cơ sở dữ liệu đối tượng bằng lệnh fsck"
+
+#: lib/database.tcl:107
+#, tcl-format
+msgid ""
+"This repository currently has approximately %i loose objects.\n"
+"\n"
+"To maintain optimal performance it is strongly recommended that you compress "
+"the database.\n"
+"\n"
+"Compress the database now?"
+msgstr ""
+"Hiện kho này mất ước chừng khoảng %i đối tượng.\n"
+"\n"
+"Để tối ưu hóa hiệu suất, khuyến nghị bạn nên nén cơ sở dữ liệu của mình "
+"lại.\n"
+"\n"
+"Nén cơ sở dữ liệu chứ?"
+
+#: lib/error.tcl:20 lib/error.tcl:116
+msgid "error"
+msgstr "lỗi"
+
+#: lib/error.tcl:36
+msgid "warning"
+msgstr "cảnh báo"
+
+#: lib/error.tcl:96
+msgid "You must correct the above errors before committing."
+msgstr "Bạn phải sửa các lỗi trên trước khi chuyển giao."
+
+#~ msgid "Displaying only %s of %s files."
+#~ msgstr "Chỉ hiển thị %s trong số %s tập tin."
 
 #~ msgid "Case-Sensitive"
 #~ msgstr "Có phân biệt HOA/thường"
